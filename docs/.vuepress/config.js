@@ -4,7 +4,7 @@ module.exports = {
     dest: 'build/.vuepress/dist',
     host: 'localhost',
     port: '8080',
-    base: '/test-blog2/',
+    base: '/wxning-blog/',
     head: [
         ['link', {rel: 'icon', href: '/images/logo.jpg'}]
     ],
