@@ -40,4 +40,16 @@ module.exports = [
             '/interview/system-design/notes/04/03.md',
         ]
     },
+    {
+        title: '微服务架构',
+        collapsable: false,
+        children: [
+            '/interview/system-design/notes/05/01.md',
+            '/interview/system-design/notes/05/02.md',
+            '/interview/system-design/notes/05/03.md',
+            '/interview/system-design/notes/05/04.md',
+            '/interview/system-design/notes/05/05.md',
+            '/interview/system-design/notes/05/06.md',
+        ]
+    },
 ]
