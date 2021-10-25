@@ -33,5 +33,8 @@ module.exports = [
 				]
             }
         ]
-    }
+    },
+    {
+        text: 'GitHub', link: 'https://github.com/wxning1107'
+    },
 ]

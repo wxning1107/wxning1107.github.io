@@ -31,4 +31,13 @@ module.exports = [
             '/interview/system-design/notes/03/06.md',
         ]
     },
+    {
+        title: '消息队列',
+        collapsable: false,
+        children: [
+            '/interview/system-design/notes/04/01.md',
+            '/interview/system-design/notes/04/02.md',
+            '/interview/system-design/notes/04/03.md',
+        ]
+    },
 ]
