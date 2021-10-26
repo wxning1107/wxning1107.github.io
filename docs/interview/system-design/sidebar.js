@@ -29,6 +29,7 @@ module.exports = [
             '/interview/system-design/notes/03/04.md',
             '/interview/system-design/notes/03/05.md',
             '/interview/system-design/notes/03/06.md',
+            '/interview/system-design/notes/03/07.md',
         ]
     },
     {
@@ -50,6 +51,19 @@ module.exports = [
             '/interview/system-design/notes/05/04.md',
             '/interview/system-design/notes/05/05.md',
             '/interview/system-design/notes/05/06.md',
+            '/interview/system-design/notes/05/07.md',
+            '/interview/system-design/notes/05/08.md',
+            '/interview/system-design/notes/05/09.md',
+        ]
+    },
+    {
+        title: '实战篇',
+        collapsable: false,
+        children: [
+            '/interview/system-design/notes/06/01.md',
+            '/interview/system-design/notes/06/02.md',
+            '/interview/system-design/notes/06/03.md',
+            '/interview/system-design/notes/06/04.md',
         ]
     },
 ]

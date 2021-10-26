@@ -15,7 +15,7 @@ module.exports = {
         nav: require("./nav.js"),
         sidebar: require("./sidebar.js"),
         sidebarDepth: 2,
-        lastUpdated: 'Last Updated',
+        lastUpdated: '上次更新',
         searchMaxSuggestoins: 10,
         serviceWorker: {
             updatePopup: {
