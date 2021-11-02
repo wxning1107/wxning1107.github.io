@@ -6,7 +6,7 @@ module.exports = [
         text: '面试宝典', link: '/interview/',
 		items: [
             {text: '系统设计', link: '/interview/system-design/'},
-            {text: '中高进阶篇', link: '/interview/high/'},
+            {text: '数据结构与算法', link: '/interview/data-structure-and-algorithm/'},
         ]
     },
     {
