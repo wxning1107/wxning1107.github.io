@@ -65,4 +65,20 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/05/03.md',
         ]
     },
+    {
+        title: '散列表',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/06/01.md',
+            '/interview/data-structure-and-algorithm/notes/06/02.md',
+            '/interview/data-structure-and-algorithm/notes/06/03.md',
+            '/interview/data-structure-and-algorithm/notes/06/04.md',
+            '/interview/data-structure-and-algorithm/notes/06/05.md',
+            '/interview/data-structure-and-algorithm/notes/06/06.md',
+            '/interview/data-structure-and-algorithm/notes/06/07.md',
+            '/interview/data-structure-and-algorithm/notes/06/08.md',
+            '/interview/data-structure-and-algorithm/notes/06/09.md',
+            '/interview/data-structure-and-algorithm/notes/06/10.md',
+        ]
+    },
 ]
