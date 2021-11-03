@@ -1,6 +1,6 @@
 module.exports = {
     title: '王雄宁',
-    description: '个人笔记',
+    description: '终生学习者',
     dest: 'build/.vuepress/dist',
     host: 'localhost',
     port: '8080',

@@ -57,13 +57,12 @@ module.exports = [
         ]
     },
     {
-        title: '实战篇',
+        title: '跳表',
         collapsable: false,
         children: [
-            '/interview/system-design/notes/06/01.md',
-            '/interview/system-design/notes/06/02.md',
-            '/interview/system-design/notes/06/03.md',
-            '/interview/system-design/notes/06/04.md',
+            '/interview/data-structure-and-algorithm/notes/05/01.md',
+            '/interview/data-structure-and-algorithm/notes/05/02.md',
+            '/interview/data-structure-and-algorithm/notes/05/03.md',
         ]
     },
 ]
