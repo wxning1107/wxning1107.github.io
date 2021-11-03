@@ -17,19 +17,20 @@ module.exports = [
         ]
     },
     {
-        title: '递归',
+        title: '递归算法',
         collapsable: false,
         children: [
             '/interview/data-structure-and-algorithm/notes/02/01.md',
         ]
     },
     {
-        title: '消息队列',
+        title: '排序算法',
         collapsable: false,
         children: [
-            '/interview/data-structure-and-algorithm/notes/04/01.md',
-            '/interview/system-design/notes/04/02.md',
-            '/interview/system-design/notes/04/03.md',
+            '/interview/data-structure-and-algorithm/notes/03/01.md',
+            '/interview/data-structure-and-algorithm/notes/03/02.md',
+            '/interview/data-structure-and-algorithm/notes/03/03.md',
+            '/interview/data-structure-and-algorithm/notes/03/04.md',
         ]
     },
     {
