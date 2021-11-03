@@ -31,6 +31,10 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/03/02.md',
             '/interview/data-structure-and-algorithm/notes/03/03.md',
             '/interview/data-structure-and-algorithm/notes/03/04.md',
+            '/interview/data-structure-and-algorithm/notes/03/05.md',
+            '/interview/data-structure-and-algorithm/notes/03/06.md',
+            '/interview/data-structure-and-algorithm/notes/03/07.md',
+            '/interview/data-structure-and-algorithm/notes/03/08.md',
         ]
     },
     {
