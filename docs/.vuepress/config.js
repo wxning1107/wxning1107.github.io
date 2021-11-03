@@ -25,6 +25,30 @@ module.exports = {
         },
         editLinks: true,
         editLinkText: '在 GitHub 上编辑此页 ！'
-    }
+    },
+    plugins: [
+        ['@vuepress/back-to-top', true],
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: {
+                message: '有新内容更新啦~',
+                buttonText: '立即获取新内容，确定后稍后自动刷新'
+            }
+        }],
+        ['@vuepress/medium-zoom', {
+            selector: '.theme-default-content img'
+        }],
+        ['@vuepress/search', {
+            searchMaxSuggestions: 10
+        }],
+        ['vuepress-plugin-code-copy', true],
+        ['@vuepress/last-updated', {
+            transformer: (timestamp, lang) => {
+                const moment = require('moment')
+                return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+            }
+        }],
+        ['vuepress-plugin-tags'],
+    ]
 }
 
