@@ -43,18 +43,17 @@ module.exports = [
         ]
     },
     {
-        title: '微服务架构',
+        title: '二分查找算法',
         collapsable: false,
         children: [
-            '/interview/data-structure-and-algorithm/notes/05/01.md',
-            '/interview/system-design/notes/05/02.md',
-            '/interview/system-design/notes/05/03.md',
-            '/interview/system-design/notes/05/04.md',
-            '/interview/system-design/notes/05/05.md',
-            '/interview/system-design/notes/05/06.md',
-            '/interview/system-design/notes/05/07.md',
-            '/interview/system-design/notes/05/08.md',
-            '/interview/system-design/notes/05/09.md',
+            '/interview/data-structure-and-algorithm/notes/04/01.md',
+            '/interview/data-structure-and-algorithm/notes/04/02.md',
+            '/interview/data-structure-and-algorithm/notes/04/03.md',
+            '/interview/data-structure-and-algorithm/notes/04/04.md',
+            '/interview/data-structure-and-algorithm/notes/04/05.md',
+            '/interview/data-structure-and-algorithm/notes/04/06.md',
+            '/interview/data-structure-and-algorithm/notes/04/07.md',
+            '/interview/data-structure-and-algorithm/notes/04/08.md',
         ]
     },
     {
