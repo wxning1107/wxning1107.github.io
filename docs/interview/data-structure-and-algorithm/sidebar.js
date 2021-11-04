@@ -96,4 +96,18 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/07/09.md',
         ]
     },
+    {
+        title: '二叉树',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/08/01.md',
+            '/interview/data-structure-and-algorithm/notes/08/02.md',
+            '/interview/data-structure-and-algorithm/notes/08/03.md',
+            '/interview/data-structure-and-algorithm/notes/08/04.md',
+            '/interview/data-structure-and-algorithm/notes/08/05.md',
+            '/interview/data-structure-and-algorithm/notes/08/06.md',
+            '/interview/data-structure-and-algorithm/notes/08/07.md',
+            '/interview/data-structure-and-algorithm/notes/08/08.md',
+        ]
+    },
 ]
