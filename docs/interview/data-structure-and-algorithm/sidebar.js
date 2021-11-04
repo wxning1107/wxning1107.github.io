@@ -123,4 +123,16 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/09/07.md',
         ]
     },
+    {
+        title: '图',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/10/01.md',
+            '/interview/data-structure-and-algorithm/notes/10/02.md',
+            '/interview/data-structure-and-algorithm/notes/10/03.md',
+            '/interview/data-structure-and-algorithm/notes/10/04.md',
+            '/interview/data-structure-and-algorithm/notes/10/05.md',
+            '/interview/data-structure-and-algorithm/notes/10/06.md',
+        ]
+    },
 ]
