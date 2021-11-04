@@ -135,4 +135,14 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/10/06.md',
         ]
     },
+    {
+        title: 'Trie 树',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/11/01.md',
+            '/interview/data-structure-and-algorithm/notes/11/02.md',
+            '/interview/data-structure-and-algorithm/notes/11/03.md',
+            '/interview/data-structure-and-algorithm/notes/11/04.md',
+        ]
+    },
 ]
