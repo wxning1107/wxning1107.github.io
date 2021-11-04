@@ -81,4 +81,19 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/06/10.md',
         ]
     },
+    {
+        title: '哈希算法',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/07/01.md',
+            '/interview/data-structure-and-algorithm/notes/07/02.md',
+            '/interview/data-structure-and-algorithm/notes/07/03.md',
+            '/interview/data-structure-and-algorithm/notes/07/04.md',
+            '/interview/data-structure-and-algorithm/notes/07/05.md',
+            '/interview/data-structure-and-algorithm/notes/07/06.md',
+            '/interview/data-structure-and-algorithm/notes/07/07.md',
+            '/interview/data-structure-and-algorithm/notes/07/08.md',
+            '/interview/data-structure-and-algorithm/notes/07/09.md',
+        ]
+    },
 ]
