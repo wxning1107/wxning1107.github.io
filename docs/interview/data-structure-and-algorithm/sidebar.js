@@ -110,4 +110,17 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/08/08.md',
         ]
     },
+    {
+        title: '堆',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/09/01.md',
+            '/interview/data-structure-and-algorithm/notes/09/02.md',
+            '/interview/data-structure-and-algorithm/notes/09/03.md',
+            '/interview/data-structure-and-algorithm/notes/09/04.md',
+            '/interview/data-structure-and-algorithm/notes/09/05.md',
+            '/interview/data-structure-and-algorithm/notes/09/06.md',
+            '/interview/data-structure-and-algorithm/notes/09/07.md',
+        ]
+    },
 ]
