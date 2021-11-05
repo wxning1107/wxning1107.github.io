@@ -156,4 +156,13 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/12/05.md',
         ]
     },
+    {
+        title: '分治算法',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/13/01.md',
+            '/interview/data-structure-and-algorithm/notes/13/02.md',
+            '/interview/data-structure-and-algorithm/notes/13/03.md',
+        ]
+    },
 ]
