@@ -165,4 +165,14 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/13/03.md',
         ]
     },
+    {
+        title: '回溯算法',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/14/01.md',
+            '/interview/data-structure-and-algorithm/notes/14/02.md',
+            '/interview/data-structure-and-algorithm/notes/14/03.md',
+            '/interview/data-structure-and-algorithm/notes/14/04.md',
+        ]
+    },
 ]
