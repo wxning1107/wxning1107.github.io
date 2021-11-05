@@ -145,4 +145,15 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/11/04.md',
         ]
     },
+    {
+        title: '贪心算法',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/12/01.md',
+            '/interview/data-structure-and-algorithm/notes/12/02.md',
+            '/interview/data-structure-and-algorithm/notes/12/03.md',
+            '/interview/data-structure-and-algorithm/notes/12/04.md',
+            '/interview/data-structure-and-algorithm/notes/12/05.md',
+        ]
+    },
 ]
