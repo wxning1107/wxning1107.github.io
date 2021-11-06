@@ -175,4 +175,21 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/14/04.md',
         ]
     },
+    {
+        title: '动态规划',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/15/01.md',
+            '/interview/data-structure-and-algorithm/notes/15/02.md',
+            '/interview/data-structure-and-algorithm/notes/15/03.md',
+            '/interview/data-structure-and-algorithm/notes/15/04.md',
+            '/interview/data-structure-and-algorithm/notes/15/05.md',
+            '/interview/data-structure-and-algorithm/notes/15/06.md',
+            '/interview/data-structure-and-algorithm/notes/15/07.md',
+            '/interview/data-structure-and-algorithm/notes/15/08.md',
+            '/interview/data-structure-and-algorithm/notes/15/09.md',
+            '/interview/data-structure-and-algorithm/notes/15/10.md',
+            '/interview/data-structure-and-algorithm/notes/15/11.md',
+        ]
+    },
 ]
