@@ -192,4 +192,22 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/15/11.md',
         ]
     },
+    {
+        title: '拓扑排序',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/16/01.md',
+            '/interview/data-structure-and-algorithm/notes/16/02.md',
+            '/interview/data-structure-and-algorithm/notes/16/03.md',
+        ]
+    },
+    {
+        title: 'Dijkstra最短路径算法',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/17/01.md',
+            '/interview/data-structure-and-algorithm/notes/17/02.md',
+            '/interview/data-structure-and-algorithm/notes/17/03.md',
+        ]
+    },
 ]
