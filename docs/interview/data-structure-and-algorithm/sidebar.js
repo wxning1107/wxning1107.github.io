@@ -208,6 +208,35 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/17/01.md',
             '/interview/data-structure-and-algorithm/notes/17/02.md',
             '/interview/data-structure-and-algorithm/notes/17/03.md',
+            '/interview/data-structure-and-algorithm/notes/17/04.md',
+        ]
+    },
+    {
+        title: '位图与布隆过滤器',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/18/01.md',
+            '/interview/data-structure-and-algorithm/notes/18/02.md',
+            '/interview/data-structure-and-algorithm/notes/18/03.md',
+        ]
+    },
+    {
+        title: 'B+树',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/19/01.md',
+            '/interview/data-structure-and-algorithm/notes/19/02.md',
+            '/interview/data-structure-and-algorithm/notes/19/03.md',
+        ]
+    },
+    {
+        title: '并行算法',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/20/01.md',
+            '/interview/data-structure-and-algorithm/notes/20/02.md',
+            '/interview/data-structure-and-algorithm/notes/20/03.md',
+            '/interview/data-structure-and-algorithm/notes/20/04.md',
         ]
     },
 ]
