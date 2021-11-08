@@ -287,4 +287,16 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/25/03.md',
         ]
     },
+    {
+        title: '实战题',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/26/01.md',
+            '/interview/data-structure-and-algorithm/notes/26/02.md',
+            '/interview/data-structure-and-algorithm/notes/26/03.md',
+            '/interview/data-structure-and-algorithm/notes/26/04.md',
+            '/interview/data-structure-and-algorithm/notes/26/05.md',
+            '/interview/data-structure-and-algorithm/notes/26/06.md',
+        ]
+    },
 ]
