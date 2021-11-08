@@ -239,4 +239,52 @@ module.exports = [
             '/interview/data-structure-and-algorithm/notes/20/04.md',
         ]
     },
+    {
+        title: '剖析Redis数据类型对应的数据结构',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/21/01.md',
+            '/interview/data-structure-and-algorithm/notes/21/02.md',
+            '/interview/data-structure-and-algorithm/notes/21/03.md',
+            '/interview/data-structure-and-algorithm/notes/21/04.md',
+            '/interview/data-structure-and-algorithm/notes/21/05.md',
+        ]
+    },
+    {
+        title: '剖析搜索引擎背后的经典数据结构和算法',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/22/01.md',
+            '/interview/data-structure-and-algorithm/notes/22/02.md',
+            '/interview/data-structure-and-algorithm/notes/22/03.md',
+            '/interview/data-structure-and-algorithm/notes/22/04.md',
+            '/interview/data-structure-and-algorithm/notes/22/05.md',
+        ]
+    },
+    {
+        title: '剖析高性能队列Disruptor背后的数据结构和算法',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/23/01.md',
+            '/interview/data-structure-and-algorithm/notes/23/02.md',
+            '/interview/data-structure-and-algorithm/notes/23/03.md',
+        ]
+    },
+    {
+        title: '剖析微服务接口鉴权限流背后的数据结构和算法',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/24/01.md',
+            '/interview/data-structure-and-algorithm/notes/24/02.md',
+        ]
+    },
+    {
+        title: '如何实现一个短网址系统？',
+        collapsable: false,
+        children: [
+            '/interview/data-structure-and-algorithm/notes/25/01.md',
+            '/interview/data-structure-and-algorithm/notes/25/02.md',
+            '/interview/data-structure-and-algorithm/notes/25/03.md',
+        ]
+    },
 ]
