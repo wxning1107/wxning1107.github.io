@@ -9,13 +9,11 @@ module.exports = [
         ]
     },
     {
-        title: '线性表',
+        title: 'ACID理论',
         collapsable: false,
         children: [
-            '/interview/data-structure-and-algorithm/notes/01/01.md',
-            '/interview/data-structure-and-algorithm/notes/01/02.md',
-            '/interview/data-structure-and-algorithm/notes/01/03.md',
-            '/interview/data-structure-and-algorithm/notes/01/04.md',
+            '/interview/distributed-protocol-and-algorithm/notes/01/01.md',
+            '/interview/distributed-protocol-and-algorithm/notes/01/02.md',
         ]
     },
     {
