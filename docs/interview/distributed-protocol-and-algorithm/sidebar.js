@@ -25,4 +25,13 @@ module.exports = [
             '/interview/distributed-protocol-and-algorithm/notes/02/03.md',
         ]
     },
+    {
+        title: 'Paxos算法',
+        collapsable: false,
+        children: [
+            '/interview/distributed-protocol-and-algorithm/notes/03/01.md',
+            '/interview/distributed-protocol-and-algorithm/notes/03/02.md',
+            '/interview/distributed-protocol-and-algorithm/notes/03/03.md',
+        ]
+    },
 ]
