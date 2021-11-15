@@ -1,0 +1,169 @@
+# TypeScript简明教程
+## JavaScript是一门糟糕的语言
+
+JavaScript有各种标准，ES5、ES6、ES7，为了解决浏览器适配新版JavaScript问题甚至还有个[Babel](https://babeljs.io)的项目。
+
+## 弱类型的JavaScript
+
+```javascript
+let a = 'abc'
+console.log(typeof a) // "string" 
+
+a = 123
+console.log(typeof a) // "number"
+```
+
+而且数字类型都是number类型，不区分整形和浮点型，这也有点小危险了。
+```javascript
+let a = 123.456
+console.log(typeof a) // "number"
+```
+
+JavaScript是一个非常灵活的语言：
+```javascript
+let a = {"name": 'jone', "salary": 3000}
+a.bonus = 10000
+console.log(a) // {"name": "jone", "salary": 3000, "bonus": 10000}
+```
+JavaScript程序员会花费大量时间研究一个对象里有哪些类型，是整数呢还是字符串等这样的问题上面。
+
+
+JavaScript类型有多弱呢？
+```javascript
+console.log(20 == 20) // true 
+
+console.log(20 == '20') // true
+```
+粗看还好，但是举个例子，像错误码404，很有可能在安卓里是字符串，在ios里是整形，这是很有可能发生的现象，这样处理起来就会非常头疼。
+
+再举几个JavaScript坑的例子：
+```javascript
+console.log(10 + 20) // 30 
+
+console.log(10 + '20') // "1020" 
+
+console.log([1,2,3]) // [1, 2, 3] 
+console.log([1,2,3] + 4) // "1,2,34" 
+```
+
+
+## 人们为了不写JavaScript人们做了哪些努力？
+
+微软：
+  - ActiveX控件（C++）
+  - SilverLight（C#）
+
+Adobe：
+  - Adobe Flex，基于Adobe Flash（ActionScript）
+
+Google：
+  - GWT，全程是Google Web Toolkit（Java），把Java编译成JavaScript
+  - dart，现在变成Flutter了，只写一份代码发不到不同平台会生产相应的网页
+
+
+上面这些努力，Adobe，FWT，ActiveX本身架构就问题，像SilverLight，dart失败在生态上，已经有很多人使用JavaScript并且生态那么好，很难去换个新赛道。
+
+<br></br>
+TypeScript的优势：
+- JavaScript的超集，对 JavaScript 有很好的兼容，相当于 JavaScript + 类型定义
+- 编译成JavaScript运行
+- 无缝衔接JavaScript社区
+- 前端框架跟进，包括Angular、Vue、React、小程序
+
+
+## 基本数据类型
+
+定义变量:
+
+```typescript
+let anExampleVariable: string = 'abc'
+let anExampleNum: number = 123
+let anExampleBool: boolean = true
+```
+当然也可以让编译器推断类型:
+```typescript
+let anExampleVariable = 'abc'
+console.log(anExampleVariable) // 'abc'
+```
+定义一个 literal type：
+```typescript
+let answer: 'yes' | 'no' | 'mabey' = 'mabey' // 类似于枚举类型
+```
+虽然 answer 值的类型都是字符串，但是 answer 类型并不是字符串：
+```typescript
+let answer: 'yes' | 'no' | 'mabey' = 'mabey'
+let s:string = 'abc'
+answer = s // 编译错误：Type 'string' is not assignable to type '"yes" | "no" | "mabey"'.
+```
+literal type 可以是多种类型：
+```typescript
+let httpstatus: 200 | 404 | 500 | '200' | '404' | '500' = '200'
+```
+上面其实是一个类型的并集，即 union of types：
+```typescript
+let httpstatus: 200 | 404 | 500 | '200' | '404' | '500' = '200'
+let statusCode: string|number = httpstatus // union of types
+```
+TypeScript也可以像JavaScript一样支持动态类型：
+```typescript
+let a: any = 'abc' // a是任何类型
+a = 123
+```
+undefined类型只能是undefined：
+```typescript
+let u:undefined = undefined
+u = 'abc' // 编译错误
+```
+undefined 也可以用在 literal type中：
+```typescript
+let answer: 'yes' | 'no' | 'mabey' | undefined = undefined
+```
+用${}填充变量：
+```typescript
+let a = 'abc'
+let b = `a is ${a}` // "a is abc"
+```
+
+## 枚举类型
+
+定义枚举类型：
+```typescript
+enum HTTPStatus {
+  OK, // 0
+  NOT_FOUND, // 1
+  INTERNAL_SERER_ERROR, // 2
+}
+
+console.log(HTTPStatus.NOT_FOUND) // 1
+```
+当然也可以赋初值：
+```typescript
+enum HTTPStatus {
+    OK = 200, 
+    NOT_FOUND = 404,
+    INTERNAL_SERER_ERROR = 500, 
+}
+
+console.log(HTTPStatus.NOT_FOUND) // 404
+```
+获取枚举类型变量名：
+```typescript
+enum HTTPStatus {
+    OK = 200, 
+    NOT_FOUND = 404,
+    INTERNAL_SERER_ERROR = 500, 
+}
+
+console.log(HTTPStatus[HTTPStatus.NOT_FOUND]) // "NOT_FOUND"
+```
+
+
+
+
+
+
+
+
+
+
+

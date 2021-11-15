@@ -34,4 +34,15 @@ module.exports = [
             '/interview/distributed-protocol-and-algorithm/notes/03/03.md',
         ]
     },
+    {
+        title: 'Raft算法',
+        collapsable: false,
+        children: [
+            '/interview/distributed-protocol-and-algorithm/notes/04/01.md',
+            '/interview/distributed-protocol-and-algorithm/notes/04/02.md',
+            '/interview/distributed-protocol-and-algorithm/notes/04/03.md',
+            '/interview/distributed-protocol-and-algorithm/notes/04/04.md',
+            '/interview/distributed-protocol-and-algorithm/notes/04/05.md',
+        ]
+    },
 ]
