@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "4541e5302aa0c6468751ea7148a8c5a9"
+    "revision": "0ef31623bc6bdf73fac8b213f78e11b1"
   },
   {
     "url": "assets/css/0.styles.164dedc7.css",
@@ -1170,16 +1170,16 @@ self.__precacheManifest = [
     "revision": "156c6035798a90aae31b022f10ff2e66"
   },
   {
-    "url": "assets/js/105.17f40977.js",
-    "revision": "10b94f03a308e97b174126c91f78fd8e"
+    "url": "assets/js/105.498a3d5d.js",
+    "revision": "fe1b2c11be091f48455b121f23ccd71a"
   },
   {
-    "url": "assets/js/106.455ccc55.js",
-    "revision": "7bf1e4968f2c6e5ac64892c392653b28"
+    "url": "assets/js/106.27370d37.js",
+    "revision": "c4fbd0c86da8b67eea3651d366eafb50"
   },
   {
-    "url": "assets/js/107.6e299719.js",
-    "revision": "3057117f6bee2fef8e7de7b149437c85"
+    "url": "assets/js/107.2209c124.js",
+    "revision": "d18a866c57e90d644b507cdaf0be4c22"
   },
   {
     "url": "assets/js/108.48d8d156.js",
@@ -1258,12 +1258,12 @@ self.__precacheManifest = [
     "revision": "3abf4693f0275bdc907d143239864ce1"
   },
   {
-    "url": "assets/js/125.7ab6a1bd.js",
-    "revision": "8280b84f29d08e19520330c7d43293b6"
+    "url": "assets/js/125.240b7c0e.js",
+    "revision": "e685c3e9bb236e63391dde7f26ee8311"
   },
   {
-    "url": "assets/js/126.617ae30d.js",
-    "revision": "444e2cc86c075c12d26b3583ce994dcd"
+    "url": "assets/js/126.a301c9d8.js",
+    "revision": "54abb78063860c2e2a175b00680d8356"
   },
   {
     "url": "assets/js/127.adfcd433.js",
@@ -1310,12 +1310,12 @@ self.__precacheManifest = [
     "revision": "2d9c9913651e5edabc7fe3359bc8e19c"
   },
   {
-    "url": "assets/js/137.1e735141.js",
-    "revision": "b47be5e9bc601ee1b3817d7b46472445"
+    "url": "assets/js/137.044394fd.js",
+    "revision": "f085912c92e1669bd0ef88303316394e"
   },
   {
-    "url": "assets/js/138.262df9e4.js",
-    "revision": "3d4d9f32b797f7471a7b66c3b2cd330a"
+    "url": "assets/js/138.1b2259b7.js",
+    "revision": "0dd35805d259ca6e99613ddea137526b"
   },
   {
     "url": "assets/js/139.192aa917.js",
@@ -1366,8 +1366,8 @@ self.__precacheManifest = [
     "revision": "69efd227730f3974ddaad83f1a9e93be"
   },
   {
-    "url": "assets/js/15.d9a9fe9e.js",
-    "revision": "426a27fc75c2ccbcc5ac8e100a010c41"
+    "url": "assets/js/15.bcee2224.js",
+    "revision": "7ca22cf5811846047840166b6de42687"
   },
   {
     "url": "assets/js/150.8218f49d.js",
@@ -1382,16 +1382,16 @@ self.__precacheManifest = [
     "revision": "51d3881a168d963d347576c8f6acc170"
   },
   {
-    "url": "assets/js/153.1af2c93f.js",
-    "revision": "e27382c1672ced2ea8c73c5443e62bfd"
+    "url": "assets/js/153.56b5e49c.js",
+    "revision": "ba9c38f2a7739d7e251b65e2dafdfcba"
   },
   {
     "url": "assets/js/154.860f31ff.js",
     "revision": "ed6650c90e0b52575297c6a37eb207c3"
   },
   {
-    "url": "assets/js/155.857bd67c.js",
-    "revision": "ee3a72d5fa3ef0daee281184f2805619"
+    "url": "assets/js/155.51ece2f5.js",
+    "revision": "83400fd108626890cf67d3203cf33988"
   },
   {
     "url": "assets/js/156.b0f9041b.js",
@@ -1422,48 +1422,48 @@ self.__precacheManifest = [
     "revision": "1c798f325a4b9af5d9bdde683db09466"
   },
   {
-    "url": "assets/js/162.f3ca5273.js",
-    "revision": "20beb4acbc2be7433e1f4e5c02b30378"
+    "url": "assets/js/162.82c53d64.js",
+    "revision": "aba7345f97952c7cb6b49e18a7fe57e1"
   },
   {
-    "url": "assets/js/163.ad31c3de.js",
-    "revision": "e2767ee14197b906c5f400fcab7ae7b2"
+    "url": "assets/js/163.774a327a.js",
+    "revision": "dca590cb1cdbd16484822e1edbed5e1c"
   },
   {
-    "url": "assets/js/164.d7f00f4a.js",
-    "revision": "293bf262858f844fbefcb2c555244b7f"
+    "url": "assets/js/164.f4f1702d.js",
+    "revision": "8ffbc8d2caf6df912842aa60196f67e7"
   },
   {
-    "url": "assets/js/165.0b5b444b.js",
-    "revision": "2d76b02b8b51b39ed15daf63b4a26c1a"
+    "url": "assets/js/165.36c48fd9.js",
+    "revision": "bc40fa9aa8d8607077ddf9c9b3a40a3d"
   },
   {
-    "url": "assets/js/166.51f8b2b2.js",
-    "revision": "995dc081876ee91874fd8a8e077867ac"
+    "url": "assets/js/166.d24c6333.js",
+    "revision": "3cca175930aee7936fca47ebfcc66c62"
   },
   {
-    "url": "assets/js/167.80777e32.js",
-    "revision": "b7ea12df4e5f46711b3ac1ead30d0ff3"
+    "url": "assets/js/167.9732a869.js",
+    "revision": "b0b483487c63c25ad84cb513acc9a3a1"
   },
   {
-    "url": "assets/js/168.ff01243c.js",
-    "revision": "3785b7b7ab1216d5345a28b3a3f36f1b"
+    "url": "assets/js/168.8c905ec8.js",
+    "revision": "fa8d53b1a01658ffef40f8644a4a3867"
   },
   {
-    "url": "assets/js/169.3241e7be.js",
-    "revision": "c8300d87bf0ab0393d365224783d9d4a"
+    "url": "assets/js/169.334b23a4.js",
+    "revision": "fa7b2706dfa3302a2b8caa088d2db1bd"
   },
   {
-    "url": "assets/js/17.c09d4aae.js",
-    "revision": "d2f808372f3278aea76ea738cc54aa60"
+    "url": "assets/js/17.86ac51fe.js",
+    "revision": "e77c28b8875d29375f0966117a6bcac9"
   },
   {
-    "url": "assets/js/170.b768a200.js",
-    "revision": "acc8252b42d13e8924a5e4593ef4c4b8"
+    "url": "assets/js/170.f576a07b.js",
+    "revision": "a38d1a6dc82d325b764f7ba551b2003c"
   },
   {
-    "url": "assets/js/171.8dece50c.js",
-    "revision": "e78a9c9520794f9d49c978ff6e4414e9"
+    "url": "assets/js/171.f38257c5.js",
+    "revision": "bb2530a024f2c2829207f43e5f0a474c"
   },
   {
     "url": "assets/js/172.24d9ccd9.js",
@@ -1506,12 +1506,12 @@ self.__precacheManifest = [
     "revision": "eac8a7c6fc710fc3756c8c9290060bff"
   },
   {
-    "url": "assets/js/181.d4111c9c.js",
-    "revision": "3ea4d9a92de92c2ea132fb7d4b0a2040"
+    "url": "assets/js/181.4d02f64a.js",
+    "revision": "c1fbc3badc9c8c256c371880ae359de3"
   },
   {
-    "url": "assets/js/182.0a0178fb.js",
-    "revision": "9741541628a282a0d245e77ecb7f6c2b"
+    "url": "assets/js/182.614eb4d4.js",
+    "revision": "142e71ade6e3cfd84db111c354f88197"
   },
   {
     "url": "assets/js/183.3c3ea271.js",
@@ -1526,8 +1526,8 @@ self.__precacheManifest = [
     "revision": "4921d7da48d41e90e5dad9f60bb57590"
   },
   {
-    "url": "assets/js/186.0c1ccc0b.js",
-    "revision": "4b2bfcc2f1b85fbfb48dc9e8321e4a15"
+    "url": "assets/js/186.168b94b4.js",
+    "revision": "d7f1e6000d3e82e629f97ca270a0cd7a"
   },
   {
     "url": "assets/js/187.a9a3fdcc.js",
@@ -1650,8 +1650,8 @@ self.__precacheManifest = [
     "revision": "0c778d575b77659e043304ca2af035cc"
   },
   {
-    "url": "assets/js/31.6335dbec.js",
-    "revision": "3844b085ae1bb980e2750b7ffb3fd23a"
+    "url": "assets/js/31.d4c3b5d1.js",
+    "revision": "a7eeac16511f82008e21cfa50cbebf44"
   },
   {
     "url": "assets/js/32.f34d9f99.js",
@@ -1742,8 +1742,8 @@ self.__precacheManifest = [
     "revision": "d2f586510b4b88f57fc6cf7cdeed64fa"
   },
   {
-    "url": "assets/js/52.22654dd1.js",
-    "revision": "c9ce331333396e49b1d01267f3ea525a"
+    "url": "assets/js/52.411e9fc8.js",
+    "revision": "57a1547e74f861a53c894a59941380a0"
   },
   {
     "url": "assets/js/53.b06867bb.js",
@@ -1754,8 +1754,8 @@ self.__precacheManifest = [
     "revision": "c0925e369b45465f2901a5f70bab7f6d"
   },
   {
-    "url": "assets/js/55.52a3f640.js",
-    "revision": "469c2daae5ed72f9dd919d39acf94bbd"
+    "url": "assets/js/55.12c27e76.js",
+    "revision": "d9a1834c5e7f21b12130fc88d13bdcf5"
   },
   {
     "url": "assets/js/56.9dcd909b.js",
@@ -1774,24 +1774,24 @@ self.__precacheManifest = [
     "revision": "388a41cd0da4546585d5e22f3f6fec89"
   },
   {
-    "url": "assets/js/6.d681717c.js",
-    "revision": "fbbcc42d82b014b9616eeeb4a89042d7"
+    "url": "assets/js/6.989539dc.js",
+    "revision": "6e3a90a0e71ac533c7d35ce7e1b5fd9b"
   },
   {
     "url": "assets/js/60.4b328bac.js",
     "revision": "26be28f41c066199fbc75980acde59d3"
   },
   {
-    "url": "assets/js/61.a947fee3.js",
-    "revision": "c8663226ec97a5b094c931bb49a6848d"
+    "url": "assets/js/61.f7ad0e45.js",
+    "revision": "6d34f661f8278745e3b8f3acfa6cc0ad"
   },
   {
-    "url": "assets/js/62.8e182088.js",
-    "revision": "5c113a2d52deb23e59f52668456941ab"
+    "url": "assets/js/62.50db94d0.js",
+    "revision": "af693acaead88971b7e7c3bcdc9609b3"
   },
   {
-    "url": "assets/js/63.30f77ccd.js",
-    "revision": "826e75bc004e77ab23481be9ddaab3e3"
+    "url": "assets/js/63.1b301925.js",
+    "revision": "8b29576c2a9f94dad0cb0a54665ccc49"
   },
   {
     "url": "assets/js/64.c39774b4.js",
@@ -1806,8 +1806,8 @@ self.__precacheManifest = [
     "revision": "0e22b52ab066db14e1cf793ce6edd5b1"
   },
   {
-    "url": "assets/js/67.5bca1aed.js",
-    "revision": "c528b0ef02534c35807de61da7d358da"
+    "url": "assets/js/67.d55847ab.js",
+    "revision": "1be98e5f1b5c880753cccb75f1903763"
   },
   {
     "url": "assets/js/68.28596c9b.js",
@@ -1950,28 +1950,28 @@ self.__precacheManifest = [
     "revision": "ee21e7cddf79641cca90bd18f713dcb3"
   },
   {
-    "url": "assets/js/app.7ae5c3d9.js",
-    "revision": "2ef8d311e5d822fde5400f8d56afcaf1"
+    "url": "assets/js/app.a8d693ec.js",
+    "revision": "bdc49b0bd2ad3e91e09f3717bc4a8be6"
   },
   {
     "url": "base/typescript/index.html",
-    "revision": "d3b6c3743b10445b81718be93bbce5e0"
+    "revision": "97e54d4005a234ba9909d614fa901166"
   },
   {
     "url": "base/typescript/notes/00/01.html",
-    "revision": "4a1d7a3030fc97d77f9a3e96218f4ec4"
+    "revision": "6fc6c00e33f80fb1081851271bb16699"
   },
   {
     "url": "guide/index.html",
-    "revision": "b1fbd68b2945c440a476c357441d7bb6"
+    "revision": "67e4d76d4c409ffe537c39610c0ad089"
   },
   {
     "url": "guide/notes/one.html",
-    "revision": "2cdf483754c64d450b9c1f76db10a935"
+    "revision": "3e3a2b8fcb16f6c633cea9b5cf572afb"
   },
   {
     "url": "guide/notes/two.html",
-    "revision": "19d9edcb02c559822e30e6ba7273870d"
+    "revision": "8c8e4a88593cb22522d3c6d5cd70d5bd"
   },
   {
     "url": "images/logo.jpg",
@@ -1979,759 +1979,759 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3867826f5b3e1940d83441b40269ea8f"
+    "revision": "d89b4751f4b4c4c7f34e8664081412d1"
   },
   {
     "url": "interview/data-structure-and-algorithm/index.html",
-    "revision": "d4f79bd21d66721aaa988bb1b21dbe22"
+    "revision": "b1d66c23a6293c0b2d09ae77690fdc4d"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/00/01.html",
-    "revision": "2498acd0018068e16a1914bc811f7a69"
+    "revision": "8caa49a291a5e7d02b66a3a1ed481896"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/01/01.html",
-    "revision": "f4c62f8514f3be09f29d38eaee8399e6"
+    "revision": "936df2a95001ac60fdf1e607d6f4b218"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/01/02.html",
-    "revision": "6da6fa5aba46f5f676672338da15b2d3"
+    "revision": "b111e7d03010e8431c21d43285dc2689"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/01/03.html",
-    "revision": "3effbbe04c2c769369afbef98848d5ba"
+    "revision": "f2c219873f1a9df5ab58929249991038"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/01/04.html",
-    "revision": "785d280837176d97e352a516ed3de0a3"
+    "revision": "ae325a147bb4cacf076fc6b9d7c17c13"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/02/01.html",
-    "revision": "7c3b2c8a1652013e7d35ca2acf13917f"
+    "revision": "92a2263a210b801999816deeef593bb4"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/01.html",
-    "revision": "7df183dfb8f052fd01c824b5bd9d40ac"
+    "revision": "d9f80c4d48fe6d7338f4ca286f8921ea"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/02.html",
-    "revision": "164148c29655889082d652fc63dd0008"
+    "revision": "35784459f79fd724073a870d9da6bcff"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/03.html",
-    "revision": "9ee41f4516186172a15f13366f8d8c61"
+    "revision": "3e8ab04ac1e89e2e93e3baaf5b2eddf7"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/04.html",
-    "revision": "f81d7b0ff2a52663897473833b61236f"
+    "revision": "7c2d5b4bc69e93a36b9527dd2053c110"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/05.html",
-    "revision": "85522c8c084944f4fc69c0eddbc91cbd"
+    "revision": "e7d469e27d67a90c45f2c67fe09b081e"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/06.html",
-    "revision": "1b206518817b2b30598d0dbade5ff13f"
+    "revision": "c3aa359ecc651cd35469df16f3b0cc77"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/07.html",
-    "revision": "b96332831a3aa831ea5219ae903313a2"
+    "revision": "13d691e972da9945fb46abdefcc94c47"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/08.html",
-    "revision": "e75d7cd4a1649f72b0bbdbe5094fb538"
+    "revision": "6e3cb98734f69c1de078c4e5b2b37453"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/09.html",
-    "revision": "b4660ac704b8d3cd20b5246446d09f5e"
+    "revision": "e87ba31bfc3e33f205d6e9bd44487ec0"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/10.html",
-    "revision": "1b4d541294600f309e03d0a0eaefc742"
+    "revision": "f82d69c6578419ecb631ea0ee34a6f7c"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/11.html",
-    "revision": "3f1be19b753b9083c52ed904b43fd6df"
+    "revision": "89c4f11035ce86bc3ed04f2c51c5532e"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/12.html",
-    "revision": "b6c60b0963babdf87eaadce8498c3786"
+    "revision": "c45be5ba6f135bc06890787c7c4f8c90"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/03/13.html",
-    "revision": "5fe8f42d6d152429f560876965b376d1"
+    "revision": "bcc6c9ef9aa3a47a49a6e04af5e018a7"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/04/01.html",
-    "revision": "7515006a80d4afcfe4d974d785321d16"
+    "revision": "30725c21213c004bb4458e5129f888d3"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/04/02.html",
-    "revision": "ee91d245dfa574eee69da3067c87bb53"
+    "revision": "03111d23b816cf3be1ac7ca567ef4565"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/04/03.html",
-    "revision": "50b98f2406978e3b34a8f8860a35964c"
+    "revision": "4d17506e0e76e03bbbd6185be016bb7d"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/04/04.html",
-    "revision": "199e8be75cf81b794c5dda87f39ebf22"
+    "revision": "9524c1750cf8cdb4e1109a079c2747b0"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/04/05.html",
-    "revision": "09a62e1db3e12f26b67e7ec0c230a9d1"
+    "revision": "810165aca120b4a41d6352a5fe25a047"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/04/06.html",
-    "revision": "cceb4ecff9b21ad46ace4a937433c5d8"
+    "revision": "f2033796eed10fc2a6b9087814149494"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/04/07.html",
-    "revision": "60da73d4e6bca1153cae89968bc55bdf"
+    "revision": "d341967e6dd071082409d4e9fa2e2ca9"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/04/08.html",
-    "revision": "ceb5c7b8cbb085b2a67ac73f35be3b32"
+    "revision": "3cd7b24b2713485cce552bc7ad7d1683"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/05/01.html",
-    "revision": "a073b711ca68bfcddc9406f5cfba8ab4"
+    "revision": "17e2e2ad7638e6ebbbb1c0009e9aea42"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/05/02.html",
-    "revision": "f199a2e35ae8ce45c3ea87199609dc9b"
+    "revision": "827e79811557fef64b64ce504a1e3466"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/05/03.html",
-    "revision": "b86fec198756ff7dc30b3abb5d8eed04"
+    "revision": "aecedd9a49ac39b58f673803aefbc9a1"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/06/01.html",
-    "revision": "3ed7e51de5fa3b15282799980fa0f685"
+    "revision": "252209d3fa8405b05b80123b9d1dcee1"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/06/02.html",
-    "revision": "00b6f1f7ab5e5762f58279c82c7ac46f"
+    "revision": "1de30364627a13b7b90bd9808f7238e2"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/06/03.html",
-    "revision": "b48081f48e03ffe361d60a5da57a7a33"
+    "revision": "92a1a0c677afaa1379bf5cb4b76d963e"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/06/04.html",
-    "revision": "5aaa9ba3f0e2ac65bb97db7df21374ae"
+    "revision": "eaeb181387f02452477e304b968abe70"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/06/05.html",
-    "revision": "2e67a7eb183c402107b907411f8b3718"
+    "revision": "cf874baadc4531c63f47e58b769afb4a"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/06/06.html",
-    "revision": "f4a7e2a5d757a06aeee0a6d62de79bf8"
+    "revision": "b3e0727c23b5c8a9f594140b14444236"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/06/07.html",
-    "revision": "a8d1f85130f5e1adc204bd45476840e5"
+    "revision": "470e51f4d8866fc22d90165b585c8872"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/06/08.html",
-    "revision": "7d4745a398f1820cdd867f9ecfe52c96"
+    "revision": "e58664dcebadce3ae5c1274eae4c9492"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/06/09.html",
-    "revision": "1ba1884885410fe8c2d60aa912305453"
+    "revision": "508dc3ad80c0a1c05b1448e93febcb28"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/06/10.html",
-    "revision": "f63ffbd7b322512051d5ba52575dc6b3"
+    "revision": "55b1f2b5e72397665e9546de83f362e7"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/07/01.html",
-    "revision": "f9e75e5008eeaae017ebe8f054adf31d"
+    "revision": "fb64966f31e8a4ccdce38f751e1a97df"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/07/02.html",
-    "revision": "3ae43980e293654575b696e1864ffe58"
+    "revision": "b2193a07581ff900f72d8c44591e0e23"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/07/03.html",
-    "revision": "668102040b0f1a0b7fe8d5d9f3f4e48d"
+    "revision": "1bce6fc1403f13ef63c6643b170e7dc0"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/07/04.html",
-    "revision": "24e2546daa67dce9d53e06bf449b7539"
+    "revision": "054a309c302d248093b486d540449190"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/07/05.html",
-    "revision": "e61848e65fc1647584811342d6f9867e"
+    "revision": "a58000ebbcd0e4d19ad7681e2bee44d0"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/07/06.html",
-    "revision": "0976db81fa82673dff3d4f83cc3716ff"
+    "revision": "2a64c07f4dab49a95679ea0461cf05c5"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/07/07.html",
-    "revision": "9a538f0f5ebd3290ec8a328817e69aa3"
+    "revision": "9fa3ce336766535be16d0116f51d3c6e"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/07/08.html",
-    "revision": "b9f7ec114f488dcb387033b0f4d64ced"
+    "revision": "db4b8e746fa5e488d31d3829c264f530"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/07/09.html",
-    "revision": "b9dc96d54f7e68713766757d215912a5"
+    "revision": "a4ea2f5366edd406700206b5305f0f10"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/08/01.html",
-    "revision": "613d43b49705c221285f8a8011f4fd96"
+    "revision": "8927d04583bab721ea184c82d7559e25"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/08/02.html",
-    "revision": "65b2014749ed7fbb0d291890cdf86825"
+    "revision": "5d0eb52ea046e77f5c28f686f789b41b"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/08/03.html",
-    "revision": "1032f3c8852d8653911d5aaea66daf86"
+    "revision": "c95d1891cfec133678b7f5d347742987"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/08/04.html",
-    "revision": "8fd4bc745b408aa8b280eab169597be7"
+    "revision": "4fcbcfb4e31d0bc16c6528f55f5624ea"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/08/05.html",
-    "revision": "674a3d90a36731c710710699971794e3"
+    "revision": "1d2dcdd2dadf92bfae6cec8a81db6c1d"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/08/06.html",
-    "revision": "274eda1ac958999789394823e81ed103"
+    "revision": "45a55f0b2176a64b86e6bd8aff4b7049"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/08/07.html",
-    "revision": "a50ec445713be61019be54e3956e778e"
+    "revision": "0034c6d06bd7632c6e67b2f9857363b9"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/08/08.html",
-    "revision": "562d1630a7a0e6e1799109b7af13021e"
+    "revision": "dedf33a848b06ce23f775bb8a0f6ea3d"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/09/01.html",
-    "revision": "519d5d1bbeef13d527804d3ffe5763bf"
+    "revision": "65e30a5aa29c218365b115fe44406662"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/09/02.html",
-    "revision": "1b1860d7e54a57b710971c38109e5931"
+    "revision": "373b62719836f969dbc6dd050996b2ce"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/09/03.html",
-    "revision": "5590779b78e86498f72609c0f8a5a8c9"
+    "revision": "01fc98868fd6e10250371ceb38f857f0"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/09/04.html",
-    "revision": "a3d7a088bf6c45bd54ab25a49888251f"
+    "revision": "a7eb3a4a6ec91449cb3b17dd0dfc80ce"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/09/05.html",
-    "revision": "a57e5d8bf65a2cd511d561fdf8a80bc5"
+    "revision": "760eaa6c309dd995bd36652462224032"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/09/06.html",
-    "revision": "379aab9caf2985ad2ad094ea02f03e87"
+    "revision": "1cf63a98e85754e790c36ae718566f4f"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/09/07.html",
-    "revision": "ee1412130da50288e26ef4f591250803"
+    "revision": "9445f46b9e5c9ac56c9f2f357ab3e39a"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/10/01.html",
-    "revision": "e2ae45c84367165bb967cfac749ae3cf"
+    "revision": "3f7e1e8168ab1b9b8060f1d19298cb73"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/10/02.html",
-    "revision": "cac11cda5f3a4009c4681dad834fd0a5"
+    "revision": "db328589e7289f8d6c510fc1609703d0"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/10/03.html",
-    "revision": "bad0070dbcf9d6bb94fb4731acbb627a"
+    "revision": "b5d5a34788d6293a7d0dcbd9491e62b3"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/10/04.html",
-    "revision": "220a43e7423f47c6970e17f7640530f3"
+    "revision": "1f6552b55e1c2379bccb0cea50acfa6d"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/10/05.html",
-    "revision": "72e1de191e8226fe2f55213a4b0eda6c"
+    "revision": "a13c0ead8ee96f7b191af1ab4a258688"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/10/06.html",
-    "revision": "425c7e51b31ca2f33dac0dcda5b32a26"
+    "revision": "d0b9f2e136e89aec32db4519f120ecb7"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/11/01.html",
-    "revision": "51e1667be25eff69116299cfe093ed97"
+    "revision": "1905766ff3ffcfe7ff8b21b0d9c784dd"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/11/02.html",
-    "revision": "e88fea705675720506b22d5a34b9e6f2"
+    "revision": "0347cd0998b993b575a4ae75cac56137"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/11/03.html",
-    "revision": "4d6bc240264dee52d28522a7a321339f"
+    "revision": "6281270c81c2680d9929e32e8f0ed3cd"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/11/04.html",
-    "revision": "b3ce628f21be692d38235f0826c2c061"
+    "revision": "8c6ad80eac740b693ba6737fcb80e985"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/12/01.html",
-    "revision": "d2caead47c09d4463fd9ed423ecce7e1"
+    "revision": "64685520a23ec2ffd1a4f9e930c51a93"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/12/02.html",
-    "revision": "a2b01b95bb5a31f1d0bf3849809a8326"
+    "revision": "4c4d5412e64150dd9a53c7b5074f7a47"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/12/03.html",
-    "revision": "807a0229d3de3e87bc98cb189553faf8"
+    "revision": "2c8a9ca71e4d30ba36c5474216d12036"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/12/04.html",
-    "revision": "1c24c329ddf0eefc12cfc6e03a153d72"
+    "revision": "2f4315a93406fe1fd1d56eb984cdcd6d"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/12/05.html",
-    "revision": "6753ac0198baabedf703747d8e920881"
+    "revision": "c0872b9af833639da724606b4d7140b8"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/13/01.html",
-    "revision": "3df13435caa960839b7bc96ad3a42745"
+    "revision": "2a2976844596d42ed71579d1ce988209"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/13/02.html",
-    "revision": "43019ecebbc054c3ac66a3425bc675f8"
+    "revision": "aac74990079fbea3178a52085eea598b"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/13/03.html",
-    "revision": "9800b690593d126c34a356f5978cc464"
+    "revision": "5078bb7b91f7f551fb41d7ae0f5643e9"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/14/01.html",
-    "revision": "a1dc46817e07a77783a5cbcbbf594a82"
+    "revision": "d5826535b471d20b84072c7e35be962c"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/14/02.html",
-    "revision": "0d66319ed4698f6b82b8a4ea9888781d"
+    "revision": "52594ecd0c1403c183b857c96e5b1645"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/14/03.html",
-    "revision": "4a87d2d251acb02a55de3330d25110a0"
+    "revision": "c71dfb7bccfde527bff8a6ead4bd22fc"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/14/04.html",
-    "revision": "69a00177f0ddfcfc5853656dabd49dcf"
+    "revision": "5cc21c7404d4cfb6d4bf815f55ee6359"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/01.html",
-    "revision": "3c81182a1cd17f120e9b89322d254128"
+    "revision": "27b0a3a8a62b471746e33672168d4935"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/02.html",
-    "revision": "c8d274758b7d5677cb4f6007c3e6e310"
+    "revision": "70fc4eca6aad7cfbf7e52e9ad7c5ab64"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/03.html",
-    "revision": "5fd1167c373290f56d0630bad06ab378"
+    "revision": "5bc31ccdc62510d1086cbcbfd7caf767"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/04.html",
-    "revision": "414e427348c10f67eac8662cec9b2ee4"
+    "revision": "a2f9e41176f285f4f527a3fd238c6e2a"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/05.html",
-    "revision": "a93e98215789dea9b393969d763da4fe"
+    "revision": "a3a3c4f068ca36fff6b949851e090d51"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/06.html",
-    "revision": "376d40eb4081d259d448891065848ab5"
+    "revision": "49e79fdb0b771a132768753dbb64a94d"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/07.html",
-    "revision": "93c05d3dd9a30a805816e380358e6930"
+    "revision": "28961a74e41d2f3cd469e43f3f32f974"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/08.html",
-    "revision": "c08ede62af7dcfdb59847f10d3d7d528"
+    "revision": "6f2455185f93a16d6de55c7ead646d53"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/09.html",
-    "revision": "e3df1838ba6dce5ac21191a0b4ac7eb8"
+    "revision": "0b453f58d8ef8e94ad87d1e93c8abfba"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/10.html",
-    "revision": "e567dd0c87c93807e76ac241b37b8fb1"
+    "revision": "e9dfbf7726f87b4403749fc783edc137"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/15/11.html",
-    "revision": "83a7545be098ff7bfcaa380a24337abc"
+    "revision": "b762f5f517e4e2574d021da9794bb3d5"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/16/01.html",
-    "revision": "4d571f40b8d1c845ee9af929a91bd08b"
+    "revision": "5ad76d4ce6f2c0be751cb7ff87bb79a1"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/16/02.html",
-    "revision": "b2c8def241f63bb1813719376264f2ed"
+    "revision": "ab1b1ef77a69fdf8c68fd36a66abb9cf"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/16/03.html",
-    "revision": "17d8e31225e9b98a3da2e0b8f2adb1a5"
+    "revision": "15d81d99bbeea0b869b0755e0fa68cd4"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/17/01.html",
-    "revision": "b8156f8857e6fa300391a35c8ff5bcaf"
+    "revision": "a48f63df597d82dd2941cdfa11249a68"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/17/02.html",
-    "revision": "14790828213991cce091b7bf6c0109ac"
+    "revision": "bf9132d432c857a795be25ffe4f3727b"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/17/03.html",
-    "revision": "76ff0b8e0c85e819df2477d3a744dfd4"
+    "revision": "572be5900916195523ebf5bbf666e706"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/17/04.html",
-    "revision": "14d09ddfbb234e3e0f7d3248dc98ee0c"
+    "revision": "1d5e0aea0018588cd33711f952e68930"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/18/01.html",
-    "revision": "f86fbcbeae7f568108d0f46c73e4ca5e"
+    "revision": "fc2b4c779a2ab4f27a3e87098a4a8811"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/18/02.html",
-    "revision": "3e41ecda895f91d677232e7be7075310"
+    "revision": "f98b3e7087c325c66056578bc4e55e18"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/18/03.html",
-    "revision": "f9cdbccdc6dd9467b87e53e7c72a5545"
+    "revision": "2a70f22bfeda59a126f0e0d809bc50a8"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/19/01.html",
-    "revision": "3838b0060191378cbb8cba0aad4ef1c0"
+    "revision": "ad08d37c9f759f7d12dd020639fb0597"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/19/02.html",
-    "revision": "a9066cddfe79b661f047f6c647b7ba1f"
+    "revision": "fcdb8ddcb5802feef7073281c3fcac48"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/19/03.html",
-    "revision": "e0c74d17d7560c61d483a539aa145264"
+    "revision": "a851c7a8f63aa349c8b37fa80a8b0e86"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/20/01.html",
-    "revision": "d32b3344c63cb4e06c4777bca5b9b8cb"
+    "revision": "8372c3ffb583dd541ab47ac564c5ddfd"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/20/02.html",
-    "revision": "fe322a6baaf764c4bc911c5cdc39c12e"
+    "revision": "557cbb616bf5ced836bce27c5d48457a"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/20/03.html",
-    "revision": "dabb07f86a4aed62dbebb44b6a9d80cd"
+    "revision": "0a1436f9ca8aa94fddeac689f8c1256c"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/20/04.html",
-    "revision": "8bf5bf976a79c44bab8d060c5b951003"
+    "revision": "747c2103078c7d6ba2ba840586adf992"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/21/01.html",
-    "revision": "703d642b737325859bd0132e39d08dc9"
+    "revision": "a148cb6438ef5679b285ad24fccc790d"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/21/02.html",
-    "revision": "97ddaf3e7a51d3f672328d801214af7e"
+    "revision": "febffcd6f029b18b34739c47bc0633fe"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/21/03.html",
-    "revision": "4a20838a39e22c135499531438f63ef9"
+    "revision": "cd7682816cbd046fceb8aee57c7c44a2"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/21/04.html",
-    "revision": "1d80f71cd871dabdcdea317e228df289"
+    "revision": "7dd1955f8d9baa4fd7cc69e88ea5d85a"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/21/05.html",
-    "revision": "e2fdf9fc5027b3d92cbea41b0087f635"
+    "revision": "678fac9427f69bba7b7a204fd1722d19"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/22/01.html",
-    "revision": "ae97da1c5c3e62d78c2f85cb1ada7925"
+    "revision": "66d3655c937997ab3691b61ca4c7f40d"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/22/02.html",
-    "revision": "841aa7ad977f27d9344c3dac07fbca61"
+    "revision": "b046b1b0685f1dd0515c2734716e6047"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/22/03.html",
-    "revision": "1a6592cbc10c70ee26be7cb632644dcd"
+    "revision": "a4aa6558883c8e78abd437d31f6cfc89"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/22/04.html",
-    "revision": "8f40b215dd5a38956b8afc0320809d62"
+    "revision": "d6dc8664ea322ba7b07dec40f492fd5e"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/22/05.html",
-    "revision": "8fc13c4aa9ff669d49752c030d3cee3d"
+    "revision": "3c33dd2d8baa40e748b47510fd501620"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/23/01.html",
-    "revision": "9a8e6bbc0117b9ea7d2dd5e2ac79e435"
+    "revision": "eb2c14a0a2068b74c7cd02d2482d0e74"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/23/02.html",
-    "revision": "5ac1117b574fc5163bed319d88bd9997"
+    "revision": "586020bc2d66fe7913a54b148bbfe4e6"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/23/03.html",
-    "revision": "78d98d7ee0dd39963bca835eb9b4b1fd"
+    "revision": "b8bbad0024d3b064f98292adfc7546d2"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/24/01.html",
-    "revision": "f44205b42f80a92c97ca8102eab1000a"
+    "revision": "4e66f1f2c5c499813001bd937b3369cc"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/24/02.html",
-    "revision": "8a34bcce8fca19c9edaea64ed9ad7cd7"
+    "revision": "63af893ed727692499a7f0eb90b6f118"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/25/01.html",
-    "revision": "4581da0c4b3a3af65f5179d300a6a546"
+    "revision": "72d40e92d2f5330b7e9d10a1bb815862"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/25/02.html",
-    "revision": "fa4e0dc7b4e6d8006b5ec4ca2c4c42b8"
+    "revision": "74d6d1fe2df04f44360a868cfbcc0ff5"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/25/03.html",
-    "revision": "3d7eac3c2286a13e2befef244d1f3af4"
+    "revision": "1c123b1ad15a6234a71b169f687ca53b"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/26/01.html",
-    "revision": "ad7cd465ff2b8db00789f4ca5b7cde1d"
+    "revision": "383acb886ebcb0b11cc5cff52a185684"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/26/02.html",
-    "revision": "3a3533306c4cd39705fee07752ce93d2"
+    "revision": "8cdabf7318a1d7bffe3ba03dc734a68a"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/26/03.html",
-    "revision": "ae90ea8c5b55ce4a84dda39214efe62d"
+    "revision": "b7bef06324854a256502a8b83fab5103"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/26/04.html",
-    "revision": "e6faa10ce804cd124ad89d1d8cf8df38"
+    "revision": "c50a478f87ec7c837a92af55c920a5f7"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/26/05.html",
-    "revision": "930ab83c3eb1ebc422b03b5846aae257"
+    "revision": "050a110e0e9e8aea21a5badfa8fe6eca"
   },
   {
     "url": "interview/data-structure-and-algorithm/notes/26/06.html",
-    "revision": "5d25ac851460c4d10bc34ed1f525d272"
+    "revision": "4bc50488c23ee4e5bbcf319b39bce987"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/index.html",
-    "revision": "40ff8942fd48cdd5280779e74f4c7dc6"
+    "revision": "1e5e4616a960918c11d92dbb8d1c43f2"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/00/01.html",
-    "revision": "37252cff742a07ca28da65de861411c6"
+    "revision": "96bcf299dfd696f3c6da20bbdbb1e48d"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/00/02.html",
-    "revision": "4276c8a45e7e86354a09b7e0771a4766"
+    "revision": "d3786020514df3c83d206755f0834dad"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/00/03.html",
-    "revision": "d105c1abd7d31da5d2a246d97e5360f1"
+    "revision": "319358fa88ff5a3f85a4342a51293788"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/01/01.html",
-    "revision": "011af64c4f1522417ccccbbf60eff24f"
+    "revision": "af1ec4b08153904c54e69a536d18a75e"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/01/02.html",
-    "revision": "30d6eb98b440eecbb3f5e3319a5304bc"
+    "revision": "6fc6f84ae76c944f86178b4f4f2d155d"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/02/01.html",
-    "revision": "6e55bb27a8aead8589ff90980b778cae"
+    "revision": "f34a2ccda2c07a43ae99629fe7e259cd"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/02/02.html",
-    "revision": "f82384cdeb1df50f93a6ddf8fac5e12d"
+    "revision": "c972959edc0b21121a9732f569cf0873"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/02/03.html",
-    "revision": "7c8d96a03a48cc2d82b7f3f2e12220d4"
+    "revision": "6e04e78c9116a15992402271f4616f83"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/03/01.html",
-    "revision": "81049f4c594c6a0a4e21f04bdf0e38ba"
+    "revision": "3d1509222aded4fcdb61b294b56caef8"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/03/02.html",
-    "revision": "1f2ac03e6763cf292f7f1577aa0fd7be"
+    "revision": "b8f4c33690c8b1474a2ead39cc11f3b9"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/03/03.html",
-    "revision": "598687af2b748c790b4d717964a5f5ed"
+    "revision": "8568ae3e15da3137ef786d1e462a0592"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/04/01.html",
-    "revision": "519b44cc73c43d5280a6bdb7e3447ff0"
+    "revision": "dd30a48dfd5eea9ad2d473d13f516adb"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/04/02.html",
-    "revision": "da5229770af3855905f4e533b09320f6"
+    "revision": "92ae867b4ba0d8c6656f4a909a5d6811"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/04/03.html",
-    "revision": "6bb0bec195a1d61f52d11bfa40b2ec15"
+    "revision": "807802846d2f193000c8e35e2e01d301"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/04/04.html",
-    "revision": "e7a6395c7bbcaf02f39916060ffe1074"
+    "revision": "b7efec18f8cf910bed5f1797e1e73986"
   },
   {
     "url": "interview/distributed-protocol-and-algorithm/notes/04/05.html",
-    "revision": "71f7ba52748b50e17283f9ecf0f320ba"
+    "revision": "78c998474f25a76b25dc5159f48ce400"
   },
   {
     "url": "interview/system-design/index.html",
-    "revision": "fe7341a8dfa92d19e1c48dbf621c1658"
+    "revision": "46224a3a2a113b3e79501aaecd88e841"
   },
   {
     "url": "interview/system-design/notes/01/01.html",
-    "revision": "44a2529f02793572ff166dbc52ed12f4"
+    "revision": "e344c73ac31a5b920cc0504c9df2da27"
   },
   {
     "url": "interview/system-design/notes/01/02.html",
-    "revision": "599d349bee4d02ac3190a89a4779da8d"
+    "revision": "1f073fd2bdf32f882b41784ac88f23fe"
   },
   {
     "url": "interview/system-design/notes/01/03.html",
-    "revision": "c5c487f8a0137856167a270880bd5d22"
+    "revision": "129519bc302f35614ae7b832b4c2035b"
   },
   {
     "url": "interview/system-design/notes/02/01.html",
-    "revision": "d930486e8190875791e8e82274900b0a"
+    "revision": "2b9e6c9c790ae6c1be5619c32110995e"
   },
   {
     "url": "interview/system-design/notes/02/02.html",
-    "revision": "2c629d48ab8a3e4042ef542d8d6209ab"
+    "revision": "2c325025c8b88d215f2c62d6c19302b8"
   },
   {
     "url": "interview/system-design/notes/02/03.html",
-    "revision": "afd9443181c737d648925d8266e9ad52"
+    "revision": "993d2d878b041d20d4032b1d6d33006d"
   },
   {
     "url": "interview/system-design/notes/02/04.html",
-    "revision": "da70f6eb3841400d97c25bf904204310"
+    "revision": "09e853ce432090b50aeea3199da08e16"
   },
   {
     "url": "interview/system-design/notes/02/05.html",
-    "revision": "be8cba71abbcf03999512449114b4d03"
+    "revision": "bc8f597fd8d514d19af4cfb1cd59703a"
   },
   {
     "url": "interview/system-design/notes/03/01.html",
-    "revision": "621a450fc9a72617fd214ab9eea03ddd"
+    "revision": "c10f76f60637ea3ae47ddfd1f6b33b9a"
   },
   {
     "url": "interview/system-design/notes/03/02.html",
-    "revision": "6ea11f964d699173feec990821e3f256"
+    "revision": "ce836f5b8e958c848a7d239c2a05a0ad"
   },
   {
     "url": "interview/system-design/notes/03/03.html",
-    "revision": "1f5c68ba5736e4ad27dfb8d6d4e450cd"
+    "revision": "deb4766dd8226c9cab2fe16535cea0f0"
   },
   {
     "url": "interview/system-design/notes/03/04.html",
-    "revision": "d308c9b73d0e3fa9aad3356bf84d7512"
+    "revision": "0644d177a6585ec6b54a5cc920c7670b"
   },
   {
     "url": "interview/system-design/notes/03/05.html",
-    "revision": "be82bef501b77d7a9d5085c5adc4a16f"
+    "revision": "88b19fc83d79c41f6d190a5de2364855"
   },
   {
     "url": "interview/system-design/notes/03/06.html",
-    "revision": "7f66608ca70ba2e93beeae6a0dfc746b"
+    "revision": "0c9d1c4574534a67acc5eb842e4912ec"
   },
   {
     "url": "interview/system-design/notes/03/07.html",
-    "revision": "83012b9b47af3c39e1cc554260d8413b"
+    "revision": "598627a2284241b18e779230d581e42f"
   },
   {
     "url": "interview/system-design/notes/04/01.html",
-    "revision": "5139a825c9d2eae476ed8bcc566c4820"
+    "revision": "883db26478740792816cbb26ec076f3d"
   },
   {
     "url": "interview/system-design/notes/04/02.html",
-    "revision": "90fa96b6b09cff63e8a15acc07e60d73"
+    "revision": "c0d2bf220f13d82ebac78b2325f718f1"
   },
   {
     "url": "interview/system-design/notes/04/03.html",
-    "revision": "536bfad7e65ac46026e7b920aeee1c52"
+    "revision": "9de6a1e0b48e161aceba1c6a337a6908"
   },
   {
     "url": "interview/system-design/notes/05/01.html",
-    "revision": "51527430b0f91295465884277114e75e"
+    "revision": "57c7c170ad4dbce86faa3901979c447a"
   },
   {
     "url": "interview/system-design/notes/05/02.html",
-    "revision": "50ad97bac50cd597bbc0bcaaaad4c2eb"
+    "revision": "6f49cb20ba49e36ebdde8d3667af2852"
   },
   {
     "url": "interview/system-design/notes/05/03.html",
-    "revision": "d0622a11609b39d9aaf0293a9c28d3e2"
+    "revision": "2383e9116212ef5c9d42a0e9c904242a"
   },
   {
     "url": "interview/system-design/notes/05/04.html",
-    "revision": "2b71e92197ed042aaf67fb92b7810d85"
+    "revision": "88abf730275a6fc50275cc25a062a46d"
   },
   {
     "url": "interview/system-design/notes/05/05.html",
-    "revision": "a5c9996fb9e0eaeb7a98241da79becf4"
+    "revision": "a0a62fdf93ab6d0b2b83e4e7b9bc1379"
   },
   {
     "url": "interview/system-design/notes/05/06.html",
-    "revision": "906cf8cd432409aced461f3fa0ac7803"
+    "revision": "f18c825a08bc9db5fc0d4bcfe669f1cd"
   },
   {
     "url": "interview/system-design/notes/05/07.html",
-    "revision": "f64c642e767a0eca668c83df62778ecf"
+    "revision": "dd6d36a302d38180e6a0106104fe89bd"
   },
   {
     "url": "interview/system-design/notes/05/08.html",
-    "revision": "106e6bba1e1ec7f8fcdd4c90c9bfc5cd"
+    "revision": "909361292524055343313f9bafb633dd"
   },
   {
     "url": "interview/system-design/notes/05/09.html",
-    "revision": "ed63dc74638989c43274b4a60ec9f730"
+    "revision": "cb2fb6457a6b6e698a3f873a62a149fd"
   },
   {
     "url": "interview/system-design/notes/06/01.html",
-    "revision": "02018eeb9e7d69526b3244f0bdb53ca9"
+    "revision": "56bdeb041af62d43b462a886fface6f6"
   },
   {
     "url": "interview/system-design/notes/06/02.html",
-    "revision": "0f3ef885e8604313c47da3a5f912fcf7"
+    "revision": "9908f4da21cc0195c4e9efe64e92741f"
   },
   {
     "url": "interview/system-design/notes/06/03.html",
-    "revision": "13929e8867dd53ca96bbda3579ead8a6"
+    "revision": "5bb739e899ad0cb007ec1798cfcbf53d"
   },
   {
     "url": "interview/system-design/notes/06/04.html",
-    "revision": "efd1973c5fdc9c2c1a494c320413ce64"
+    "revision": "6ce64d537a66c2e7ec9289d70490c9e8"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
