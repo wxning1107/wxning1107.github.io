@@ -1,6 +1,9 @@
 module.exports = [
     {
-        title: 'TypeScript简明教程',
+        title: 'TypeScript',
         collapsable: false,
+        children: [
+            '/base/typescript/notes/00/01.md',
+        ]
     },
 ]

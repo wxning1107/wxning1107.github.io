@@ -157,13 +157,88 @@ enum HTTPStatus {
 console.log(HTTPStatus[HTTPStatus.NOT_FOUND]) // "NOT_FOUND"
 ```
 
+## 数组
+定义数组：
+```typescript
+let a = [1,2,3,'a'] // equals to：let a: (string | number)[]
+let b:number[] = [1,2,3]
+let c:Array<number> = [1,2,3] // 泛型
+let d = [] // equals to：let d: any
+```
+判断数组是否为空：
+```typescript
+let a = []
+if (a.length === 0) {
+    console.log("a is empty")
+} // 不可以用if(a){}判断  
+```
+数组增加和删除元素：
+```typescript
+let a:number[] = [] // let可以换位const，因为a始终是数组，元素怎么改变都可以，但是不可以指向其他数组或其他类型
+a.push(1) // [1] 从右边添加元素
+a.push(2) // [1,2]
+a.push(3) // [1,2,3]
+a.pop() // [1,2] 从右边删除
+a.push(4) // [1,2,4]
+
+a.unshift(5) // [5, 1, 2, 4] 从左边添加元素
+a.shift() // [1,2,4] 从左边删除
+```
+数组子数组：
+```typescript
+const a = [0,1,2,3,4,5,6,7]
+console.log(a.slice(2, 5), a.slice(5, 10), a.slice(2)) // [2, 3, 4], [5, 6, 7], [2, 3, 4, 5, 6, 7] 
+a.splice(3, 2) // 从下标3开始删除两个元素
+console.log(a) // [0, 1, 2, 5, 6, 7] 
+
+a.splice(3,2,10,11,12) // 从下标3开始删除两个元素并添加元素10，11，12
+console.log(a) // [0, 1, 2, 10, 11, 12, 7]
+```
+数组查找：
+```typescript
+a.indexOf(2) // 查找第一次出现的位置
+a.indexOf(10, 2) // 从第二个位置开始找
+
+a.lastIndexOf(11) // 从右往前找
+```
+数组排序：
+```typescript
+const a = [0,1,2,3,10,11,12]
+a.sort() // 坑：不是从小到大排序，而且按照字典序，适用于排序字符串
+console.log(a) // [0, 1, 10, 11, 12, 2, 3] 
+```
+元组tuple：
+```typescript
+const a = [1,2,3]
+const [a1, a2] = a
+console.log(a1, a2) // 1,  2 
+```
+数组元素拼接split/join：
+```typescript
+'a,b,c,1,2,3'.split(',') // ["a", "b", "c", "1", "2", "3"] 
+
+const s = [1,2,3,4].join(' ') // "1 2 3 4" 
+```
 
 
+## 对象类型
+对象定义：
+```typescript
+const emlp = {
+    name: {
+        first: '三',
+        last: '张',
+    }, // 对象嵌套
+    gender: 'male' as 'male'|'female'|'other'|'unknown',
+    salary: 8000,
+    bonus: undefined as (number | undefined), // number or undefined
+}
+```
+JSON转换：
+```typescript
+const s:string = JSON.stringify(emlp) // JSON 转 string
 
-
-
-
-
-
+const emlp2 = JSON.parse(s) // string 转 JSON
+```
 
 
