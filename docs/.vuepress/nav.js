@@ -1,6 +1,6 @@
 module.exports = [
     {
-        text: '个人简历', link: '/guide/'
+        text: '个人简介', link: '/guide/'
     },
     {
         text: '交易系统',
