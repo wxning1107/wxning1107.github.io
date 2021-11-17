@@ -48,7 +48,9 @@ console.log([1,2,3] + 4) // "1,2,34"
 ```
 
 
-## 人们为了不写JavaScript人们做了哪些努力？
+## TypeScript优势
+
+人们为了不写JavaScript人们做了哪些努力？
 
 微软：
 - ActiveX控件（C++）
@@ -736,7 +738,7 @@ Promise.race([add(2,3), add(4,5)]).then(res => {
 })
 ```
 
-## async/await 异步函数
+## async/await异步函数
 
 将刚刚的加法运算改为 async/await 形式实现：
 ```typescript
