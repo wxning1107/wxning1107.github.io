@@ -54,4 +54,12 @@ module.exports = [
             '/interview/distributed-protocol-and-algorithm/notes/05/03.md',
         ]
     },
+    {
+        title: 'Gossip协议',
+        collapsable: false,
+        children: [
+            '/interview/distributed-protocol-and-algorithm/notes/06/01.md',
+            '/interview/distributed-protocol-and-algorithm/notes/06/02.md',
+        ]
+    },
 ]
