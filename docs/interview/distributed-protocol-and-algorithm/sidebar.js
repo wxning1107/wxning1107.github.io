@@ -62,4 +62,12 @@ module.exports = [
             '/interview/distributed-protocol-and-algorithm/notes/06/02.md',
         ]
     },
+    {
+        title: 'Quorum NWR算法',
+        collapsable: false,
+        children: [
+            '/interview/distributed-protocol-and-algorithm/notes/07/01.md',
+            '/interview/distributed-protocol-and-algorithm/notes/07/02.md',
+        ]
+    },
 ]
