@@ -45,4 +45,13 @@ module.exports = [
             '/interview/distributed-protocol-and-algorithm/notes/04/05.md',
         ]
     },
+    {
+        title: '一致性哈希算法',
+        collapsable: false,
+        children: [
+            '/interview/distributed-protocol-and-algorithm/notes/05/01.md',
+            '/interview/distributed-protocol-and-algorithm/notes/05/02.md',
+            '/interview/distributed-protocol-and-algorithm/notes/05/03.md',
+        ]
+    },
 ]
