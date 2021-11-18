@@ -70,4 +70,12 @@ module.exports = [
             '/interview/distributed-protocol-and-algorithm/notes/07/02.md',
         ]
     },
+    {
+        title: 'ZAB协议',
+        collapsable: false,
+        children: [
+            '/interview/distributed-protocol-and-algorithm/notes/08/01.md',
+            '/interview/distributed-protocol-and-algorithm/notes/08/02.md',
+        ]
+    },
 ]
