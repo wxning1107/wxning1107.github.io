@@ -15,7 +15,7 @@ module.exports = {
         nav: require("./nav.js"),
         sidebar: require("./sidebar.js"),
         sidebarDepth: 2,
-        lastUpdated: '上次更新',
+        // lastUpdated: '上次更新',
         searchMaxSuggestoins: 10,
         serviceWorker: {
             updatePopup: {
@@ -42,12 +42,12 @@ module.exports = {
             searchMaxSuggestions: 10
         }],
         ['vuepress-plugin-code-copy', true],
-        ['@vuepress/last-updated', {
-            transformer: (timestamp, lang) => {
-                const moment = require('moment')
-                return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
-            }
-        }],
+        // ['@vuepress/last-updated', {
+        //     transformer: (timestamp, lang) => {
+        //         const moment = require('moment')
+        //         return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+        //     }
+        // }],
         ['vuepress-plugin-tags'],
     ]
 }
