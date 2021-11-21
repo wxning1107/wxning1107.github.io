@@ -17,6 +17,12 @@ module.exports = [
 					{text: 'TypeScript简明教程', link: '/base/typescript/'}
 				]
             },
+            {
+                text: '后端',
+                items: [
+                    {text: 'GRPC', link: '/base/grpc/'}
+                ]
+            }
         ]
     },
     {

@@ -5,5 +5,6 @@ module.exports = {
 	'/interview/data-structure-and-algorithm': require('../interview/data-structure-and-algorithm/sidebar'),
 	'/interview/distributed-protocol-and-algorithm': require('../interview/distributed-protocol-and-algorithm/sidebar'),
 	'/base/typescript': require('../base/typescript/sidebar'),
-	'/transaction/diary': require('../transaction/diary/sidebar')
+	'/transaction/diary': require('../transaction/diary/sidebar'),
+	'/base/grpc': require('../base/grpc/sidebar'),
 }
