@@ -347,3 +347,148 @@ message Trip {
     bool isFromGuestUser = 10; // 新增字段
 }
 ```
+
+## GRPC服务器-客户端
+
+
+新建 GRPC 服务 TripService：
+
+```protobuf
+message GetTripRequest {
+    string id = 1;
+}
+
+message GetTripResponse {
+    string id = 1;
+    Trip trip = 2;
+}
+
+service TripService {
+    rpc GetTrip(GetTripRequest) returns (GetTripResponse);
+}
+```
+
+使用插件生成 GRPC 服务 Go 代码：
+
+```sh
+protoc -I=. --go_out=plugins=grpc,paths=source_relative:gen/go trip.proto
+```
+
+
+
+服务端：
+
+服务端生成了 TripServiceServer 接口和注册函数：
+
+```go
+type TripServiceServer interface {
+	GetTrip(context.Context, *GetTripRequest) (*GetTripResponse, error)
+}
+
+func RegisterTripServiceServer(s *grpc.Server, srv TripServiceServer) {
+	s.RegisterService(&_TripService_serviceDesc, srv)
+}
+```
+
+新建一个 service 实现服务端 TripServiceServer 接口：
+
+```go
+type Service struct {
+}
+
+func (s *Service) GetTrip(ctx context.Context, req *trippb.GetTripRequest) (*trippb.GetTripResponse, error) {
+	return &trippb.GetTripResponse{
+		Id: req.Id,
+		Trip: &trippb.Trip{
+			Start:       "abc",
+			End:         "def",
+			DurationSec: 0,
+      Status:      trippb.TripStatus_NOT_STARTED,
+		},
+	}, nil
+}
+```
+
+起一个 GRPC 服务器：
+
+```go
+	lis, err := net.Listen("tcp", ":8081")
+	if err != nil {
+		log.Fatalf("failed to listen: %v", err)
+	}
+
+	s := grpc.NewServer()
+	trippb.RegisterTripServiceServer(s, &trip.Service{})
+	log.Fatal(s.Serve(lis))
+```
+
+
+
+客户端：
+
+客户端生成了 NewTripServiceClient 函数并且这个函数返回值有服务端的 GetTrip 方法：
+
+```go
+func NewTripServiceClient(cc *grpc.ClientConn) TripServiceClient {
+	return &tripServiceClient{cc}
+}
+```
+
+构建一个客户端：
+
+```go
+	conn, err := grpc.Dial("localhost:8081", grpc.WithInsecure())
+	if err != nil {
+		log.Fatalf("cannot connect server: %v", err)
+	}
+
+	tsClient := trippb.NewTripServiceClient(conn)
+	resp, err := tsClient.GetTrip(context.Background(), &trippb.GetTripRequest{
+		Id: "trip456",
+	})
+	if err != nil {
+		log.Fatal("cannot call GetTrip: %v", err)
+	}
+	fmt.Println(resp) // id:"trip456" trip:<start:"abc" end:"def" status:NOT_STARTED > 
+```
+
+
+
+## REST vs RPC
+
+TCP 协议只保证一件事就是可靠的传输，TCP 协议不管传输的数据，可以传文本也可以传二进制，HTTP 协议是架在 TCP 协议上对传输的数据做了规定：首先要有 Method（GET，POST等方法），然后将这些方法作用在 URL 上，还可以附带 Data。
+
+而 RPC （Remote Procedure Call）远程过程调用，与远程的服务器交互就像调一个函数一样简单，不需要指定远程服务器的地址，因为 RPC 是建立在 TCP 协议上的，TCP 和远程服务器已经建立好了连接。
+
+而后端和前端交互往往还是需要 HTTP 协议，因为无论是浏览器还是小程序最方便的还是发 HTTP 请求。
+
+
+将 RPC 服务暴露在网上有两种风格接口：
+
+1.RPC风格接口
+
+借用HTTP协议携带RPC数据
+
+![img](./notes/00/assets/image-20211122102655383.png)
+
+Method只能是POST，并且URL后面接的是动词，这个动词就是我们服务端的方法名。
+
+2.REST风格接口
+
+![img](./notes/00/assets/image-20211122103027075.png)
+
+
+## 暴露GRPC服务方案
+
+在集群内部都是通过 GRPC 访问，暴露 GRPC 有两种方案：
+
+- GRPC Gateway
+- GRPC Web Proxy
+
+对Web客户端一般采用 GRPC Web Proxy，Web端会和 GRPC Web Proxy 建立 HTTP 连接，但是传的数据是二进制数据流，GRPC Web Proxy 会把这个二进制数据流拿出来送到后台服务器。但是这个方案对系统要求比较高，Web 端需要有能力把对象编码成二进制数据流，这在 Web 端不是很方便，不像后端直接通过 proto.Marshal 方法就搞定了。
+
+而 GRPC Gateway 方案相对更方便，GRPC Gateway 与小程序或者 Web 端传输的是 json 数据。但是 GRPC Gateway 在对集群内服务的分发上没有 GRPC Web Proxy 简单，GRPC Gateway 需要将 json 数据转换为二进制数据流。
+
+既然 GRPC Gateway 需要对数据进行转换，那为什么不直接都使用 HTTP 请求呢？原因是一个集群反向代理是必不可少的，既然必不可少，我们不如在这个反向代理基础之上加一个数据转换的逻辑，对整体影响不大，内部 GRPC 请求速度也更快还简单。
+
+![img](./notes/00/assets/image-20211122104704491.png)
