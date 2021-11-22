@@ -34,6 +34,9 @@ module.exports = [
         ]
     },
     {
+        text: 'LeetCode', link: '/leetcode/'
+    },
+    {
         text: 'GitHub', link: 'https://github.com/wxning1107'
     },
 ]

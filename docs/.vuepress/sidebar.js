@@ -7,4 +7,5 @@ module.exports = {
 	'/base/typescript': require('../base/typescript/sidebar'),
 	'/transaction/diary': require('../transaction/diary/sidebar'),
 	'/base/grpc': require('../base/grpc/sidebar'),
+	'/leetcode': require('../leetcode/sidebar'),
 }
