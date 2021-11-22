@@ -1,6 +1,6 @@
 module.exports = [
     {
-        title: '动态规划',
+        title: 'LeetCode Algorithm',
         collapsable: false,
         children: [
             '/leetcode/notes/00/01.md',
