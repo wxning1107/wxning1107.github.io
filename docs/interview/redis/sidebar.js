@@ -15,6 +15,10 @@ module.exports = [
         collapsable: false,
         children: [
             '/interview/redis/notes/01/01.md',
+            '/interview/redis/notes/01/02.md',
+            '/interview/redis/notes/01/03.md',
+            '/interview/redis/notes/01/04.md',
+            '/interview/redis/notes/01/05.md',
         ]
     },
 ]
