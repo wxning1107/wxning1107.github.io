@@ -10,4 +10,11 @@ module.exports = [
             '/interview/redis/notes/00/05.md',
         ]
     },
+    {
+        title: '实战篇',
+        collapsable: false,
+        children: [
+            '/interview/redis/notes/01/01.md',
+        ]
+    },
 ]
