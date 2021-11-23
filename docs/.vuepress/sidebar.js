@@ -8,4 +8,5 @@ module.exports = {
 	'/transaction/diary': require('../transaction/diary/sidebar'),
 	'/base/grpc': require('../base/grpc/sidebar'),
 	'/leetcode': require('../leetcode/sidebar'),
+	'/interview/redis': require('../interview/redis/sidebar'),
 }
