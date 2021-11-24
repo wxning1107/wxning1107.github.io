@@ -19,6 +19,7 @@ module.exports = [
             '/interview/redis/notes/01/03.md',
             '/interview/redis/notes/01/04.md',
             '/interview/redis/notes/01/05.md',
+            '/interview/redis/notes/01/06.md',
         ]
     },
 ]
