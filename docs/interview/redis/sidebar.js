@@ -21,6 +21,7 @@ module.exports = [
             '/interview/redis/notes/01/05.md',
             '/interview/redis/notes/01/06.md',
             '/interview/redis/notes/01/07.md',
+            '/interview/redis/notes/01/08.md',
         ]
     },
 ]
