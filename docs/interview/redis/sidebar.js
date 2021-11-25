@@ -1,6 +1,6 @@
 module.exports = [
     {
-        title: '基础篇',
+        title: '基础知识',
         collapsable: false,
         children: [
             '/interview/redis/notes/00/01.md',
@@ -23,6 +23,7 @@ module.exports = [
             '/interview/redis/notes/01/07.md',
             '/interview/redis/notes/01/08.md',
             '/interview/redis/notes/01/09.md',
+            '/interview/redis/notes/01/10.md',
         ]
     },
 ]
