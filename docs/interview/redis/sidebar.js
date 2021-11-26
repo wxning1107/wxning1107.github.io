@@ -23,7 +23,18 @@ module.exports = [
             '/interview/redis/notes/01/07.md',
             '/interview/redis/notes/01/08.md',
             '/interview/redis/notes/01/09.md',
-            '/interview/redis/notes/01/10.md',
+        ]
+    },
+    {
+        title: '缓存设计',
+        collapsable: false,
+        children: [
+            '/interview/redis/notes/02/01.md',
+            '/interview/redis/notes/02/02.md',
+            '/interview/redis/notes/02/03.md',
+            '/interview/redis/notes/02/04.md',
+            '/interview/redis/notes/02/05.md',
+            '/interview/redis/notes/02/06.md',
         ]
     },
 ]
