@@ -9,4 +9,5 @@ module.exports = {
 	'/base/grpc': require('../base/grpc/sidebar'),
 	'/leetcode': require('../leetcode/sidebar'),
 	'/interview/redis': require('../interview/redis/sidebar'),
+	'/interview/mysql': require('../interview/mysql/sidebar'),
 }
