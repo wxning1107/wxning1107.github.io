@@ -9,6 +9,7 @@ module.exports = [
             '/interview/mysql/notes/00/04.md',
             '/interview/mysql/notes/00/05.md',
             '/interview/mysql/notes/00/06.md',
+            '/interview/mysql/notes/00/07.md',
         ]
     },
 ]
