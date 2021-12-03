@@ -10,4 +10,5 @@ module.exports = {
 	'/leetcode': require('../leetcode/sidebar'),
 	'/interview/redis': require('../interview/redis/sidebar'),
 	'/interview/mysql': require('../interview/mysql/sidebar'),
+	'/transaction/strategy': require('../transaction/strategy/sidebar'),
 }

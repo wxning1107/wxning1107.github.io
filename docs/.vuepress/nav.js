@@ -5,7 +5,8 @@ module.exports = [
     {
         text: '交易系统',
         items: [
-            {text: '交易日记', link: '/transaction/diary/'}
+            {text: '交易日记', link: '/transaction/diary/'},
+            {text: '交易策略', link: '/transaction/strategy/'}
         ]
     },
     {
