@@ -34,6 +34,7 @@ module.exports = [
             {text: '分布式协议与算法', link: '/interview/distributed-protocol-and-algorithm/'},
             {text: 'Redis', link: '/interview/redis/'},
             {text: 'MySQL', link: '/interview/mysql/'},
+            {text: 'MySQL题目汇总', link: '/interview/MySQL-questions/'},
         ]
     },
     {
