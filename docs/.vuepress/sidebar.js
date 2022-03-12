@@ -13,4 +13,5 @@ module.exports = {
 	'/interview/MySQL-questions': require('../interview/MySQL-questions/sidebar'),
 	'/transaction/strategy': require('../transaction/strategy/sidebar'),
 	'/interview/Redis-questions': require('../interview/Redis-questions/sidebar'),
+	'/interview/Golang-questions': require('../interview/Golang-questions/sidebar'),
 }

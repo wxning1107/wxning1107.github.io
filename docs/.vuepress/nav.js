@@ -39,6 +39,7 @@ module.exports = [
                 items: [
                     {text: 'MySQL题目汇总', link: '/interview/MySQL-questions/'},
                     {text: 'Redis题目汇总', link: '/interview/Redis-questions/'},
+                    {text: 'Golang题目汇总', link: '/interview/Golang-questions/'},
                 ]
             },
         ]

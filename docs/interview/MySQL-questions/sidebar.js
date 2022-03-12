@@ -18,6 +18,11 @@ module.exports = [
             '/interview/MySQL-questions/notes/00/13.md',
             '/interview/MySQL-questions/notes/00/14.md',
             '/interview/MySQL-questions/notes/00/15.md',
+            '/interview/MySQL-questions/notes/00/16.md',
+            '/interview/MySQL-questions/notes/00/17.md',
+            '/interview/MySQL-questions/notes/00/18.md',
+            '/interview/MySQL-questions/notes/00/19.md',
+            '/interview/MySQL-questions/notes/00/20.md',
         ]
     },
 ]
