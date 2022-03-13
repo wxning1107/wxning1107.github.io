@@ -1,6 +1,6 @@
 module.exports = [
     {
-        title: '基础篇',
+        title: '',
         collapsable: false,
         children: [
             '/interview/MySQL-questions/notes/00/21.md',
@@ -34,6 +34,7 @@ module.exports = [
             '/interview/MySQL-questions/notes/00/29.md',
             '/interview/MySQL-questions/notes/00/30.md',
             '/interview/MySQL-questions/notes/00/31.md',
+            '/interview/MySQL-questions/notes/00/32.md',
         ]
     },
 ]
