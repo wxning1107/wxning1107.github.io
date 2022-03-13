@@ -3,6 +3,11 @@ module.exports = [
         title: '基础篇',
         collapsable: false,
         children: [
+            '/interview/MySQL-questions/notes/00/21.md',
+            '/interview/MySQL-questions/notes/00/22.md',
+            '/interview/MySQL-questions/notes/00/23.md',
+            '/interview/MySQL-questions/notes/00/24.md',
+            '/interview/MySQL-questions/notes/00/25.md',
             '/interview/MySQL-questions/notes/00/02.md',
             '/interview/MySQL-questions/notes/00/01.md',
             '/interview/MySQL-questions/notes/00/03.md',
@@ -23,6 +28,12 @@ module.exports = [
             '/interview/MySQL-questions/notes/00/18.md',
             '/interview/MySQL-questions/notes/00/19.md',
             '/interview/MySQL-questions/notes/00/20.md',
+            '/interview/MySQL-questions/notes/00/26.md',
+            '/interview/MySQL-questions/notes/00/27.md',
+            '/interview/MySQL-questions/notes/00/28.md',
+            '/interview/MySQL-questions/notes/00/29.md',
+            '/interview/MySQL-questions/notes/00/30.md',
+            '/interview/MySQL-questions/notes/00/31.md',
         ]
     },
 ]
