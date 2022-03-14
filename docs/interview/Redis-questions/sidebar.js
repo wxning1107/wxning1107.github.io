@@ -7,8 +7,6 @@ module.exports = [
             '/interview/Redis-questions/notes/00/01.md',
             '/interview/Redis-questions/notes/00/02.md',
             '/interview/Redis-questions/notes/00/03.md',
-            '/interview/Redis-questions/notes/00/04.md',
-            '/interview/Redis-questions/notes/00/05.md',
             '/interview/Redis-questions/notes/00/06.md',
             '/interview/Redis-questions/notes/00/07.md',
             '/interview/Redis-questions/notes/00/08.md',
@@ -23,6 +21,10 @@ module.exports = [
             '/interview/Redis-questions/notes/00/17.md',
             '/interview/Redis-questions/notes/00/18.md',
             '/interview/Redis-questions/notes/00/19.md',
+            '/interview/Redis-questions/notes/00/21.md',
+            '/interview/Redis-questions/notes/00/22.md',
+            '/interview/Redis-questions/notes/00/23.md',
+            '/interview/Redis-questions/notes/00/24.md',
         ]
     },
 ]
