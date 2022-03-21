@@ -34,12 +34,14 @@ module.exports = [
             {text: '分布式协议与算法', link: '/interview/distributed-protocol-and-algorithm/'},
             {text: 'Redis', link: '/interview/redis/'},
             {text: 'MySQL', link: '/interview/mysql/'},
+            {text: 'Kafka', link: '/interview/kafka/'},
             {
                 text: '题目汇总', link: '/interview/questions/',
                 items: [
+                    {text: 'Golang题目汇总', link: '/interview/Golang-questions/'},
                     {text: 'MySQL题目汇总', link: '/interview/MySQL-questions/'},
                     {text: 'Redis题目汇总', link: '/interview/Redis-questions/'},
-                    {text: 'Golang题目汇总', link: '/interview/Golang-questions/'},
+                    {text: '消息队列题目汇总', link: '/interview/MQ-questions/'},
                     {text: 'Linux题目汇总', link: '/interview/Linux-questions/'},
                 ]
             },
