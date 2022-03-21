@@ -14,4 +14,5 @@ module.exports = {
 	'/transaction/strategy': require('../transaction/strategy/sidebar'),
 	'/interview/Redis-questions': require('../interview/Redis-questions/sidebar'),
 	'/interview/Golang-questions': require('../interview/Golang-questions/sidebar'),
+	'/interview/Linux-questions': require('../interview/Linux-questions/sidebar'),
 }
