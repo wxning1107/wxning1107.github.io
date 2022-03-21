@@ -13,6 +13,7 @@ module.exports = [
             '/interview/kafka/notes/00/08.md',
             '/interview/kafka/notes/00/09.md',
             '/interview/kafka/notes/00/10.md',
+            '/interview/kafka/notes/00/11.md',
         ]
     },
 ]
