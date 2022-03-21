@@ -16,5 +16,4 @@ module.exports = {
 	'/interview/Golang-questions': require('../interview/Golang-questions/sidebar'),
 	'/interview/Linux-questions': require('../interview/Linux-questions/sidebar'),
 	'/interview/MQ-questions': require('../interview/MQ-questions/sidebar'),
-	'/interview/kafka': require('../interview/kafka/sidebar'),
 }
