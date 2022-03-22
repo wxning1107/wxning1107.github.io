@@ -42,6 +42,9 @@ module.exports = [
                     {text: 'Redis题目汇总', link: '/interview/Redis-questions/'},
                     {text: '消息队列题目汇总', link: '/interview/MQ-questions/'},
                     {text: 'Linux题目汇总', link: '/interview/Linux-questions/'},
+                    {text: '计算机网络题目汇总', link: '/interview/network-questions/'},
+                    {text: '操作系统题目汇总', link: '/interview/os-questions/'},
+                    {text: '分布式与微服务题目汇总', link: '/interview/DistributedSystemAndMicroService-questions/'},
                 ]
             },
         ]

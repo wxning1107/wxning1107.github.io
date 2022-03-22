@@ -16,4 +16,7 @@ module.exports = {
 	'/interview/Golang-questions': require('../interview/Golang-questions/sidebar'),
 	'/interview/Linux-questions': require('../interview/Linux-questions/sidebar'),
 	'/interview/MQ-questions': require('../interview/MQ-questions/sidebar'),
+	'/interview/network-questions': require('../interview/network-questions/sidebar'),
+	'/interview/os-questions': require('../interview/os-questions/sidebar'),
+	'/interview/DistributedSystemAndMicroService-questions': require('../interview/DistributedSystemAndMicroService-questions/sidebar'),
 }
