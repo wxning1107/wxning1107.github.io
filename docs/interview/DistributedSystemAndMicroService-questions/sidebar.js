@@ -9,10 +9,6 @@ module.exports = [
             '/interview/DistributedSystemAndMicroService-questions/notes/00/04.md',
             '/interview/DistributedSystemAndMicroService-questions/notes/00/05.md',
             '/interview/DistributedSystemAndMicroService-questions/notes/00/06.md',
-            '/interview/DistributedSystemAndMicroService-questions/notes/00/07.md',
-            '/interview/DistributedSystemAndMicroService-questions/notes/00/08.md',
-            '/interview/DistributedSystemAndMicroService-questions/notes/00/09.md',
-            '/interview/DistributedSystemAndMicroService-questions/notes/00/10.md',
         ]
     },
 ]
