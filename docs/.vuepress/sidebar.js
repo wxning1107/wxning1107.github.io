@@ -19,4 +19,5 @@ module.exports = {
 	'/interview/network-questions': require('../interview/network-questions/sidebar'),
 	'/interview/os-questions': require('../interview/os-questions/sidebar'),
 	'/interview/DistributedSystemAndMicroService-questions': require('../interview/DistributedSystemAndMicroService-questions/sidebar'),
+	'/interview/cloud-native-questions': require('../interview/cloud-native-questions/sidebar'),
 }

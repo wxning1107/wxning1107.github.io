@@ -45,6 +45,7 @@ module.exports = [
                     {text: '计算机网络题目汇总', link: '/interview/network-questions/'},
                     {text: '操作系统题目汇总', link: '/interview/os-questions/'},
                     {text: '分布式与微服务题目汇总', link: '/interview/DistributedSystemAndMicroService-questions/'},
+                    {text: '云原生题目汇总', link: '/interview/cloud-native-questions/'},
                 ]
             },
         ]
