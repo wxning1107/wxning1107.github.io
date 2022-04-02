@@ -6,6 +6,9 @@ module.exports = [
             '/interview/system-design/notes/01/01.md',
             '/interview/system-design/notes/01/02.md',
             '/interview/system-design/notes/01/03.md',
+            '/interview/system-design/notes/01/04.md',
+            '/interview/system-design/notes/01/05.md',
+            '/interview/system-design/notes/01/06.md',
         ]
     },
     {
@@ -29,7 +32,6 @@ module.exports = [
             '/interview/system-design/notes/03/04.md',
             '/interview/system-design/notes/03/05.md',
             '/interview/system-design/notes/03/06.md',
-            '/interview/system-design/notes/03/07.md',
         ]
     },
     {
