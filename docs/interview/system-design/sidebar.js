@@ -41,10 +41,12 @@ module.exports = [
             '/interview/system-design/notes/04/01.md',
             '/interview/system-design/notes/04/02.md',
             '/interview/system-design/notes/04/03.md',
+            '/interview/system-design/notes/04/04.md',
+            '/interview/system-design/notes/04/05.md',
         ]
     },
     {
-        title: '微服务架构',
+        title: '分布式服务',
         collapsable: false,
         children: [
             '/interview/system-design/notes/05/01.md',
@@ -59,13 +61,26 @@ module.exports = [
         ]
     },
     {
-        title: '实战篇',
+        title: '维护篇',
         collapsable: false,
         children: [
             '/interview/system-design/notes/06/01.md',
             '/interview/system-design/notes/06/02.md',
             '/interview/system-design/notes/06/03.md',
             '/interview/system-design/notes/06/04.md',
+            '/interview/system-design/notes/06/05.md',
+            '/interview/system-design/notes/06/06.md',
+            '/interview/system-design/notes/06/07.md',
+        ]
+    },
+    {
+        title: '实战篇',
+        collapsable: false,
+        children: [
+            '/interview/system-design/notes/07/01.md',
+            '/interview/system-design/notes/07/02.md',
+            '/interview/system-design/notes/07/03.md',
+            '/interview/system-design/notes/07/04.md',
         ]
     },
 ]
