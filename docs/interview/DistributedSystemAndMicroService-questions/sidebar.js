@@ -11,6 +11,7 @@ module.exports = [
             '/interview/DistributedSystemAndMicroService-questions/notes/00/06.md',
             '/interview/DistributedSystemAndMicroService-questions/notes/00/07.md',
             '/interview/DistributedSystemAndMicroService-questions/notes/00/08.md',
+            '/interview/DistributedSystemAndMicroService-questions/notes/00/09.md',
         ]
     },
 ]
