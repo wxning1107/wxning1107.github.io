@@ -22,7 +22,6 @@ module.exports = [
             '/interview/network-questions/notes/00/17.md',
             '/interview/network-questions/notes/00/18.md',
             '/interview/network-questions/notes/00/19.md',
-            '/interview/network-questions/notes/00/20.md',
             '/interview/network-questions/notes/00/21.md',
             '/interview/network-questions/notes/00/22.md',
             '/interview/network-questions/notes/00/23.md',

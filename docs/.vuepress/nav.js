@@ -47,6 +47,7 @@ module.exports = [
                     {text: '分布式与微服务题目汇总', link: '/interview/DistributedSystemAndMicroService-questions/'},
                     {text: '云原生题目汇总', link: '/interview/cloud-native-questions/'},
                     {text: '项目问题汇总', link: '/interview/project-questions/'},
+                    {text: '系统设计问题汇总', link: '/interview/systemDesign-questions/'},
                 ]
             },
         ]

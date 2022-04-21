@@ -21,4 +21,5 @@ module.exports = {
 	'/interview/DistributedSystemAndMicroService-questions': require('../interview/DistributedSystemAndMicroService-questions/sidebar'),
 	'/interview/cloud-native-questions': require('../interview/cloud-native-questions/sidebar'),
 	'/interview/project-questions': require('../interview/project-questions/sidebar'),
+	'/interview/systemDesign-questions': require('../interview/systemDesign-questions/sidebar'),
 }

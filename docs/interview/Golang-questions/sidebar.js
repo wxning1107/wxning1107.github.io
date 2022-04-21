@@ -29,6 +29,7 @@ module.exports = [
             '/interview/Golang-questions/notes/00/21.md',
             '/interview/Golang-questions/notes/00/25.md',
             '/interview/Golang-questions/notes/00/26.md',
+            '/interview/Golang-questions/notes/00/27.md',
         ]
     },
 ]
