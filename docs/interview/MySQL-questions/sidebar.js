@@ -38,6 +38,8 @@ module.exports = [
             '/interview/MySQL-questions/notes/00/39.md',
             '/interview/MySQL-questions/notes/00/40.md',
             '/interview/MySQL-questions/notes/00/41.md',
+            '/interview/MySQL-questions/notes/00/32.md',
+            '/interview/MySQL-questions/notes/00/29.md',
         ]
     },
 ]
