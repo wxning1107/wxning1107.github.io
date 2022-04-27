@@ -7,7 +7,6 @@ module.exports = [
             '/interview/MQ-questions/notes/00/02.md',
             '/interview/MQ-questions/notes/00/06.md',
             '/interview/MQ-questions/notes/00/08.md',
-            '/interview/MQ-questions/notes/00/09.md',
             '/interview/MQ-questions/notes/00/10.md',
             '/interview/MQ-questions/notes/00/11.md',
             '/interview/MQ-questions/notes/00/12.md',

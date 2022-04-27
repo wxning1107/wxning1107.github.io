@@ -4,6 +4,7 @@ module.exports = [
         collapsable: false,
         children: [
             '/interview/systemDesign-questions/notes/00/01.md',
+            '/interview/systemDesign-questions/notes/00/02.md',
         ]
     },
 ]
