@@ -15,7 +15,7 @@ module.exports = [
         title: '职级详解',
         collapsable: false,
         children: [
-            '/extra-major-ability/promotion-guide/notes/00/01.md',
+            '/extra-major-ability/promotion-guide/notes/01/01.md',
         ]
     },
 ]
