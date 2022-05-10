@@ -53,9 +53,16 @@ module.exports = [
         ]
     },
     {
+        text: '非专业技能',
+        items: [
+            {text: '大厂晋升指南', link: '/extra-major-ability/promotion-guide/'},
+        ]
+    },
+    {
         text: 'LeetCode', link: '/leetcode/'
     },
     {
         text: 'GitHub', link: 'https://github.com/wxning1107'
     },
+
 ]
