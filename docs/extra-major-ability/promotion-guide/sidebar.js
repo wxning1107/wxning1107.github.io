@@ -16,6 +16,10 @@ module.exports = [
         collapsable: false,
         children: [
             '/extra-major-ability/promotion-guide/notes/01/01.md',
+            '/extra-major-ability/promotion-guide/notes/01/02.md',
+            '/extra-major-ability/promotion-guide/notes/01/03.md',
+            '/extra-major-ability/promotion-guide/notes/01/04.md',
+            '/extra-major-ability/promotion-guide/notes/01/05.md',
         ]
     },
 ]
