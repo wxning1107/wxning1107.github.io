@@ -3,6 +3,13 @@ module.exports = [
         text: '个人简介', link: '/guide/'
     },
     {
+        text: '英语学习',
+        items: [
+            {text: '摩登家庭', link: '/english/diary/'},
+            {text: '口语笔记', link: '/english/spoken/'}
+        ]
+    },
+    {
         text: '交易系统',
         items: [
             {text: '交易日记', link: '/transaction/diary/'},

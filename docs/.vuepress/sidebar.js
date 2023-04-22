@@ -27,4 +27,7 @@ module.exports = {
 	'/interview/systemDesign-questions': require('../interview/systemDesign-questions/sidebar'),
 
 	'/extra-major-ability/promotion-guide/': require('../extra-major-ability/promotion-guide/sidebar'),
+
+	'/english/diary': require('../english/diary/sidebar'),
+	'/english/spoken': require('../english/spoken/sidebar'),
 }
