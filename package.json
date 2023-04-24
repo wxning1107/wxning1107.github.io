@@ -6,7 +6,7 @@
   "private": false,
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "export NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs"
   },
   "dependencies": {
     "moment": "^2.24.0",
