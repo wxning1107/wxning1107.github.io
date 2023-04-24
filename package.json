@@ -5,8 +5,8 @@
   "author": "wxning2020@gmail.com",
   "private": false,
   "scripts": {
-    "docs:dev": "nvm use 14.18.3 & vuepress dev docs",
-    "docs:build": "nvm use 14.18.3 & vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "moment": "^2.24.0",
@@ -19,7 +19,7 @@
     "@vuepress/plugin-back-to-top": "1.8.2",
     "@vuepress/plugin-medium-zoom": "1.8.2",
     "@vuepress/plugin-pwa": "1.8.2",
-    "vuepress": "^1.9.9",
+    "vuepress": "^1.8.2",
     "vuepress-plugin-baidu-autopush": "^1.0.1"
   }
 }
