@@ -5,8 +5,8 @@
   "author": "wxning2020@gmail.com",
   "private": false,
   "scripts": {
-    "docs:dev": "npm use 14.18.3 & vuepress dev docs",
-    "docs:build": "npm use 14.18.3 & vuepress build docs"
+    "docs:dev": "nvm use 14.18.3 & vuepress dev docs",
+    "docs:build": "nvm use 14.18.3 & vuepress build docs"
   },
   "dependencies": {
     "moment": "^2.24.0",
