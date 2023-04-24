@@ -5,8 +5,8 @@
   "author": "wxning2020@gmail.com",
   "private": false,
   "scripts": {
-    "docs:dev": "export NODE_OPTIONS=--openssl-legacy-provider & vuepress dev docs",
-    "docs:build": "export NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs"
+    "docs:dev": "$env:NODE_OPTIONS=--openssl-legacy-provider & vuepress dev docs",
+    "docs:build": "$env:NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs"
   },
   "dependencies": {
     "moment": "^2.24.0",
